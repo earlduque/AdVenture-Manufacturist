@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="DELETE">
+        <active>true</active>
+        <category display_value="Player Records">48525051dbe8541068c82095ca961935</category>
+        <columns>number,priority,state,assigned_to,assignment_group,short_description,opened_at,opened_by,closed_at,closed_by</columns>
+        <condition table="x_snc_adventureman_player_record">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>300</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:13:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44525051dbe8541068c82095ca96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_aw_list_44525051dbe8541068c82095ca96193c</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:13:25</sys_updated_on>
+        <table>x_snc_adventureman_player_record</table>
+        <title>Closed</title>
+        <workspace display_value="Adventure Manufacturist">7f42dc11dbe8541068c82095ca961967</workspace>
+    </sys_aw_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>sys_aw_list_44525051dbe8541068c82095ca96193c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list"><sys_aw_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="Player Records">48525051dbe8541068c82095ca961935</category><columns>number,priority,state,assigned_to,assignment_group,short_description,opened_at,opened_by,closed_at,closed_by</columns><condition table="x_snc_adventureman_player_record">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><groups/><list_attributes/><order>300</order><roles/><sys_class_name>sys_aw_list</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 02:13:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44525051dbe8541068c82095ca96193c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Closed</sys_name><sys_overrides/><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>sys_aw_list_44525051dbe8541068c82095ca96193c</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 02:13:25</sys_updated_on><table>x_snc_adventureman_player_record</table><title>Closed</title><workspace display_value="Adventure Manufacturist">7f42dc11dbe8541068c82095ca961967</workspace></sys_aw_list></record_update>]]></payload>
+        <payload_hash>-975357364</payload_hash>
+        <record_name>Closed</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:13:25</sys_created_on>
+        <sys_id>48525051dbe8541068c82095ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d328e9660000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:13:25</sys_updated_on>
+        <type>Workspace List</type>
+        <update_guid>8052505144e8541094bbdbb21dabed3d</update_guid>
+        <update_guid_history>8052505144e8541094bbdbb21dabed3d:-975357364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 01:35:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_list">sys_aw_list</sys_db_object>
+        <sys_id>1d37a88282984afc8785553ab2defe90</sys_id>
+        <sys_metadata>44525051dbe8541068c82095ca96193c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>sys_aw_list_44525051dbe8541068c82095ca96193c</sys_update_name>
+        <sys_update_version display_value="sys_aw_list_44525051dbe8541068c82095ca96193c">48525051dbe8541068c82095ca96193d</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:35:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

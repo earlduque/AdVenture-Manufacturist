@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Stonks" section_id="6cc39091dbe8541068c82095ca9619a6" sys_domain="global" table="x_snc_adventureman_player_record" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 02:19:46</sys_created_on>
+            <sys_id>41c3d091dbe8541068c82095ca961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Stonks" display_value="Stonks" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">6cc39091dbe8541068c82095ca9619a6</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 02:19:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 02:19:46</sys_created_on>
+            <sys_id>c5c3d091dbe8541068c82095ca961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Stonks" display_value="Stonks" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">6cc39091dbe8541068c82095ca9619a6</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 02:19:46</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Stonks</caption>
+            <header>false</header>
+            <name>x_snc_adventureman_player_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 02:19:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cc39091dbe8541068c82095ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Stonks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_ui_section_6cc39091dbe8541068c82095ca9619a6</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 02:19:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">5a2164e8dbd3001068c82095ca96192c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

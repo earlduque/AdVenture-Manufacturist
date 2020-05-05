@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="4c3767c5db68541068c82095ca96191b" sys_domain="global" table="x_snc_adventureman_player_record" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-01 23:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>403767c5db68541068c82095ca96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">c7785301db68541068c82095ca9619ef</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:05:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-01 23:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>883767c5db68541068c82095ca96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form>
+            <sys_ui_section caption="Stuff" display_value="Stuff" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">483767c5db68541068c82095ca96191d</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:05:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-01 23:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39f76fc5db68541068c82095ca961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form>
+            <sys_ui_section caption="Upgrades" display_value="Upgrades" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">b9f76fc5db68541068c82095ca96198e</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:08:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c304ff8ddb68541068c82095ca9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form>
+            <sys_ui_section caption="Stonks" display_value="Stonks" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4f04ff8ddb68541068c82095ca9619ac</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_adventureman_player_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-01 23:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c3767c5db68541068c82095ca96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_adventureman_player_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4c3767c5db68541068c82095ca96191b</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:05:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>sys_ui_form_sections_4c3767c5db68541068c82095ca96191b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="4c3767c5db68541068c82095ca96191b" sys_domain="global" table="x_snc_adventureman_player_record" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 23:05:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>403767c5db68541068c82095ca96191d</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">c7785301db68541068c82095ca9619ef</sys_ui_section><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 23:05:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 23:05:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>883767c5db68541068c82095ca96191e</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form><sys_ui_section caption="Stuff" display_value="Stuff" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">483767c5db68541068c82095ca96191d</sys_ui_section><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 23:05:00</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 23:08:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>39f76fc5db68541068c82095ca961991</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form><sys_ui_section caption="Upgrades" display_value="Upgrades" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">b9f76fc5db68541068c82095ca96198e</sys_ui_section><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 23:08:25</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 00:01:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c304ff8ddb68541068c82095ca9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_snc_adventureman_player_record" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4c3767c5db68541068c82095ca96191b</sys_ui_form><sys_ui_section caption="Stonks" display_value="Stonks" name="x_snc_adventureman_player_record" sys_domain="global" view="Default view">4f04ff8ddb68541068c82095ca9619ac</sys_ui_section><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 00:01:11</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_snc_adventureman_player_record</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 23:05:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4c3767c5db68541068c82095ca96191b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_adventureman_player_record</sys_name><sys_overrides/><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>sys_ui_form_sections_4c3767c5db68541068c82095ca96191b</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 23:05:00</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-422273997</payload_hash>
+        <record_name>Player Record</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 00:01:11</sys_created_on>
+        <sys_id>0304ff8ddb68541068c82095ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d2afd7fa0000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 00:01:11</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>8b04ff8dd6685410b19ac620e9a1d0b1</update_guid>
+        <update_guid_history>8b04ff8dd6685410b19ac620e9a1d0b1:-422273997,7df76fc501685410c7349257a9e58592:-1568582102,843767c5b468541006be2c95b88e7920:877184705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:34:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>23c00230bf424373a21235b01ade6a39</sys_id>
+        <sys_metadata>4c3767c5db68541068c82095ca96191b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_adventureman_player_record</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent display_value="">91289fcddb28541068c82095ca9619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_4c3767c5db68541068c82095ca96191b</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_4c3767c5db68541068c82095ca96191b">0304ff8ddb68541068c82095ca9619b2</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:34:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

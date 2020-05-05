@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_snc_adventureman_player_record</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-01 21:59:20</sys_created_on>
+        <sys_id>c6289fcddb28541068c82095ca9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_adventureman_player_record</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_security_acl_c6289fcddb28541068c82095ca9619df</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:59:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>sys_security_acl_c6289fcddb28541068c82095ca9619df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_snc_adventureman_player_record</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 21:59:20</sys_created_on><sys_id>c6289fcddb28541068c82095ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_adventureman_player_record</sys_name><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>sys_security_acl_c6289fcddb28541068c82095ca9619df</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 21:59:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1888266490</payload_hash>
+        <record_name>x_snc_adventureman_player_record</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-01 21:59:20</sys_created_on>
+        <sys_id>8228dfcddb28541068c82095ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d240477c0000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:59:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ca28dfcda028541006aad82f73dba65d</update_guid>
+        <update_guid_history>ca28dfcda028541006aad82f73dba65d:1888266490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:34:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>108a436c79fc4f0093ec92b2f6401000</sys_id>
+        <sys_metadata>c6289fcddb28541068c82095ca9619df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_adventureman_player_record</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent display_value="">5d289fcddb28541068c82095ca9619ab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c6289fcddb28541068c82095ca9619df</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c6289fcddb28541068c82095ca9619df">8228dfcddb28541068c82095ca96195e</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:34:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>100</height>
+        <image>488e74bddbe41810df818278139619d7</image>
+        <name>paper.png</name>
+        <size_bytes>602</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 18:43:19</sys_created_on>
+        <sys_id>c36e70fddbe41810df81827813961991</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>paper.png</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>db_image_c36e70fddbe41810df81827813961991</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:43:27</sys_updated_on>
+        <thumbnail/>
+        <width>100</width>
+    </db_image>
+    <sys_attachment action="DELETE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>f90146a00c85c0421e88ad03ce71c2beef94b7873b4b6df103908825e5277c30</hash>
+        <image_height>100</image_height>
+        <image_width>100</image_width>
+        <size_bytes>602</size_bytes>
+        <size_compressed>625</size_compressed>
+        <state>available</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 18:43:27</sys_created_on>
+        <sys_id>488e74bddbe41810df818278139619d7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:43:27</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>c36e70fddbe41810df81827813961991</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="488e74bddbe41810df818278139619d7">488e74bddbe41810df818278139619d7</sys_attachment>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 18:43:27</sys_created_on>
+        <sys_id>888e74bddbe41810df818278139619d7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>AVoCpf2JUE5HDQoaCgAAAA1JSERSAAAAZAAAAGQIAwAAAEc8ZWYAAAB7UExURf///+/v7/Ly8hESJAAAANDQ0Ozs7OXl5cXFxa2trbe3t8rKyrS0tLy8vKenp8LCwtzc3NbW1p+fnwoLIAAAFwADHSIjMTM0QC4uOgAADzk5RAAAFDw8Qnh5gVZXXiQkLWBgZ25vdmdobZWVl4yMkoCBhxkaKkBAS0xMVaWVYbMAAAGaSURBVGiB7dprb4IwFAZgoBTojRbq3clgTPH//8KV4pctkCCjDWJfIzaG8OQcNUiL51uI55AXQYLpicYikTc9wgZCbCDMBkKtIIFDloZghzwT5ipxiDGEO2RxSOKQ90SIQxxiDIEOeU9kPV9hhzyV9ZwZHbI8ZD1/uNeDrOfC1E17LK+S9SDrmU21M2Xbc7zXRKysOtj4xUcWzic+Nnx9EsQJS7HBhbMohpymGFESm0O0wVLEoMF1RmUgrgwizCEBQ4jlCCdZbA4RKcXK4FBE5hCEH0bfxz4TEmOkDdWsvkLmQZI0VQZpDWNIlqeUJapXA8YcCM91GcPGABL4UTwyvC1DE/3AIOILjlSbEaIUY8Z4QgiEWZYJIbIMQpJwhilF3T5do4aFQcSPdOl/b03wf7+l9xpq0Qhk3jhkgcg/7oMZHQ9aiBdaiAcAkLLdtM/Ntn3ZqsesUchuf5Cb42lzPn5cis/wHBZhMeVQUm/kY6BGXTpElkVVllX5VVX15bu+1vl1N4E4nOTtJk97INsBuDVFc783zf0AwA9niS9iX8iKAwAAAABJRU5ErkJggu2UE+daAgAA</data>
+        <length>820</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="488e74bddbe41810df818278139619d7">488e74bddbe41810df818278139619d7</sys_attachment>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 18:43:27</sys_created_on>
+        <sys_id>0c8e74bddbe41810df818278139619d7</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>db_image_c36e70fddbe41810df81827813961991</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format>png</format><height>100</height><image>488e74bddbe41810df818278139619d7</image><name>paper.png</name><size_bytes>602</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-03 18:43:19</sys_created_on><sys_id>c36e70fddbe41810df81827813961991</sys_id><sys_mod_count>2</sys_mod_count><sys_name>paper.png</sys_name><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>db_image_c36e70fddbe41810df81827813961991</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-03 18:43:27</sys_updated_on><thumbnail/><width>100</width></db_image><sys_attachment action="INSERT_OR_UPDATE"><average_image_color>#ffffff</average_image_color><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>image</file_name><hash>f90146a00c85c0421e88ad03ce71c2beef94b7873b4b6df103908825e5277c30</hash><image_height>100</image_height><image_width>100</image_width><size_bytes>602</size_bytes><size_compressed>625</size_compressed><state>available</state><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-03 18:43:27</sys_created_on><sys_id>488e74bddbe41810df818278139619d7</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-03 18:43:27</sys_updated_on><table_name>ZZ_YYdb_image</table_name><table_sys_id>c36e70fddbe41810df81827813961991</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="image" sys_id="488e74bddbe41810df818278139619d7">488e74bddbe41810df818278139619d7</sys_attachment><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-03 18:43:27</sys_created_on><sys_id>888e74bddbe41810df818278139619d7</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AVoCpf2JUE5HDQoaCgAAAA1JSERSAAAAZAAAAGQIAwAAAEc8ZWYAAAB7UExURf///+/v7/Ly8hESJAAAANDQ0Ozs7OXl5cXFxa2trbe3t8rKyrS0tLy8vKenp8LCwtzc3NbW1p+fnwoLIAAAFwADHSIjMTM0QC4uOgAADzk5RAAAFDw8Qnh5gVZXXiQkLWBgZ25vdmdobZWVl4yMkoCBhxkaKkBAS0xMVaWVYbMAAAGaSURBVGiB7dprb4IwFAZgoBTojRbq3clgTPH//8KV4pctkCCjDWJfIzaG8OQcNUiL51uI55AXQYLpicYikTc9wgZCbCDMBkKtIIFDloZghzwT5ipxiDGEO2RxSOKQ90SIQxxiDIEOeU9kPV9hhzyV9ZwZHbI8ZD1/uNeDrOfC1E17LK+S9SDrmU21M2Xbc7zXRKysOtj4xUcWzic+Nnx9EsQJS7HBhbMohpymGFESm0O0wVLEoMF1RmUgrgwizCEBQ4jlCCdZbA4RKcXK4FBE5hCEH0bfxz4TEmOkDdWsvkLmQZI0VQZpDWNIlqeUJapXA8YcCM91GcPGABL4UTwyvC1DE/3AIOILjlSbEaIUY8Z4QgiEWZYJIbIMQpJwhilF3T5do4aFQcSPdOl/b03wf7+l9xpq0Qhk3jhkgcg/7oMZHQ9aiBdaiAcAkLLdtM/Ntn3ZqsesUchuf5Cb42lzPn5cis/wHBZhMeVQUm/kY6BGXTpElkVVllX5VVX15bu+1vl1N4E4nOTtJk97INsBuDVFc783zf0AwA9niS9iX8iKAwAAAABJRU5ErkJggu2UE+daAgAA</data><length>820</length><position>1</position><sys_attachment display_value="image" sys_id="488e74bddbe41810df818278139619d7">488e74bddbe41810df818278139619d7</sys_attachment><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-03 18:43:27</sys_created_on><sys_id>0c8e74bddbe41810df818278139619d7</sys_id></sys_attachment_doc></record_update>]]></payload>
+        <payload_hash>0</payload_hash>
+        <record_name>paper.png</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 18:43:27</sys_created_on>
+        <sys_id>988eb0fddbe41810df818278139619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dbd9aa770000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:43:27</sys_updated_on>
+        <type>Images</type>
+        <update_guid>148eb0fd1ce4181099c40e1b15268ddc</update_guid>
+        <update_guid_history>148eb0fd1ce4181099c40e1b15268ddc:-1538308552,9c8e74bdf1e41810c956a75471d786de:1566070485,cc8e74bd52e41810505674e3e3ae1adb:1619011939,de7eb0fdd3e418105f9bcf6ce4940013:-307396687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="paper.png">2d6ac93ddb281810df818278139619d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 19:35:25</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>6195a6139f264cd6b35d373b746f3059</sys_id>
+        <sys_metadata>c36e70fddbe41810df81827813961991</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>paper.png</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>db_image_c36e70fddbe41810df81827813961991</sys_update_name>
+        <sys_update_version display_value="db_image_c36e70fddbe41810df81827813961991">988eb0fddbe41810df818278139619dc</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:35:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

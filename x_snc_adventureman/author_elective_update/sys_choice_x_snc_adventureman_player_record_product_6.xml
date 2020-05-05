@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product_6" table="x_snc_adventureman_player_record" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirt paths</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c689c69dbec9410df818278139619b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pebble Roads 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc8810a9dbec9410df818278139619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:01</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asphalt highways</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>458850a9dbec9410df81827813961913</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:08</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asphalt highways 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>668810a9dbec9410df81827813961974</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:12</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asphalt highways 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f38850a9dbec9410df818278139619e4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:19</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asphalt highways 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>189850a9dbec9410df818278139619fc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:26</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asphalt highways 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c79850a9dbec9410df818278139619fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:34</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Speed Tunnels</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50a850a9dbec9410df81827813961989</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:38</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Speed Tunnels 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ea890a9dbec9410df81827813961985</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:43</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Speed Tunnels 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97a8d0a9dbec9410df8182781396199a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:46</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Speed Tunnels 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cb8d0a9dbec9410df81827813961910</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:49</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirt paths 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78689c69dbec9410df818278139619ba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:31</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Speed Tunnels 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05b8d0a9dbec9410df818278139619ec</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:19:54</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Giant Trebuchets</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:19:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82b814a9dbec9410df81827813961923</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:20:01</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Giant Trebuchets 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:20:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efb814a9dbec9410df8182781396195c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:20:04</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Giant Trebuchets 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acc814a9dbec9410df81827813961965</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:20:08</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Giant Trebuchets 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51c854a9dbec9410df81827813961911</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:20:18</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Giant Trebuchets 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:20:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dac854a9dbec9410df8182781396195a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:20:23</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirt paths 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f568dc69dbec9410df81827813961910</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirt paths 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be689c69dbec9410df818278139619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:38</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dirt paths 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e768dc69dbec9410df8182781396198d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:41</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pebble Roads</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5878dc69dbec9410df818278139619c7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:48</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pebble Roads 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b57810a9dbec9410df81827813961970</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:51</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pebble Roads 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a7810a9dbec9410df81827813961941</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:54</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_6</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pebble Roads 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef7810a9dbec9410df8182781396199f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:57</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product_6</element>
+            <name>x_snc_adventureman_player_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:18:26</sys_created_on>
+            <sys_id>bc689c69dbec9410df818278139619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>product_6</sys_name>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_choice_x_snc_adventureman_player_record_product_6</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:18:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

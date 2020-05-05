@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_form_header">
+    <sys_aw_form_header action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ignore_highlight>false</ignore_highlight>
+        <order>100</order>
+        <primary_field>cash</primary_field>
+        <secondary_fields/>
+        <sys_class_name>sys_aw_form_header</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:03:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd7078addb20d410df81827813961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_aw_form_header_dd7078addb20d410df81827813961914</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:03:53</sys_updated_on>
+        <table>x_snc_adventureman_player_record</table>
+        <workspace display_value="Adventure Manufacturist">7f42dc11dbe8541068c82095ca961967</workspace>
+    </sys_aw_form_header>
+</record_update>

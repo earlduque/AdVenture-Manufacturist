@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_adventureman.spend</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>spend</name>
+        <script><![CDATA[var spend = Class.create();
+spend.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	buy: function(){
+		var item_index = this.getParameter('sysparm_item_index');
+		var sys_id = this.getParameter('sysparm_sys_id');
+		var player_gr = new GlideRecord('x_snc_adventureman_player_record');
+		player_gr.get(sys_id);
+		/*if (parseFloat(player_gr.getValue('cash')) < parseFloat(player_gr.getValue('value_' + item_index))) {
+			var results = {};
+			results.message = 'Missing ' + player_gr.getDisplayValue('value_' + item_index);
+			return JSON.stringify(results);
+		}
+		var cash = parseFloat(player_gr.getValue('cash'));
+		var item_amount = parseInt(player_gr.getValue('item_' + item_index));
+		var item_value = parseFloat(player_gr.getValue('value_' + item_index));
+		player_gr.setValue('cash', cash - item_value);
+		player_gr.setValue('item_' + item_index, item_amount + 1);*/
+		//player_gr.setValue('value_' + item_index, Math.round((item_value * 2.25)*100)/100);
+		var thing = player_gr['product_' + item_index].getDisplayValue();
+		player_gr.work_notes = 'buy ' + thing.replace(/ [1-9]\.0/g, '');
+		player_gr.update();
+	},
+    type: 'spend'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:34:38</sys_created_on>
+        <sys_id>9185d4d1dbe8541068c82095ca9619a0</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>spend</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_script_include_9185d4d1dbe8541068c82095ca9619a0</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:44:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <brand_color/>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry display_value="Adventure Manufacturist">f342dc11dbe8541068c82095ca961968</compiled_page_registry>
+        <description>Click to win!</description>
+        <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
+        <global_search_data display_value="Adventure Manufacturist Search Context Config">ff42dc11dbe8541068c82095ca961965</global_search_data>
+        <name>Adventure Manufacturist</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>false</notifications_enabled>
+        <primary_color/>
+        <search_enabled>false</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:13:24</sys_created_on>
+        <sys_id>7f42dc11dbe8541068c82095ca961967</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Adventure Manufacturist</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_aw_master_config_7f42dc11dbe8541068c82095ca961967</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:58:59</sys_updated_on>
+        <user_preference_controls_enabled>false</user_preference_controls_enabled>
+        <workspace_logo>dc0cdaaddb68d410df8182781396197c</workspace_logo>
+        <workspace_url>adventure_manufact</workspace_url>
+    </sys_aw_master_config>
+</record_update>

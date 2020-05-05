@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="newassetavailable" label="NewAssetAvailable" language="en" table="x_snc_adventureman_player_record">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>newassetavailable</element>
+            <help/>
+            <hint/>
+            <label>NewAssetAvailable</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <plural>NewAssetAvailables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 18:11:45</sys_created_on>
+            <sys_id>deadafd5db6c9410df818278139619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NewAssetAvailable</sys_name>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_adventureman_player_record_newassetavailable_en</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 18:11:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

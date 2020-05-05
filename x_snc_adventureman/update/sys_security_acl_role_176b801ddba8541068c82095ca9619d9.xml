@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:43:20</sys_created_on>
+        <sys_id>176b801ddba8541068c82095ca9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_adventureman_player_record.x_snc_adventureman.player_record_user</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_security_acl display_value="x_snc_adventureman_player_record">976b801ddba8541068c82095ca9619d6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_176b801ddba8541068c82095ca9619d9</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:43:20</sys_updated_on>
+        <sys_user_role display_value="x_snc_adventureman.player_record_user" name="x_snc_adventureman.player_record_user">716b401ddba8541068c82095ca961973</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

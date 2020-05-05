@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1a-04-06-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>chit_chat</internal_name>
+        <label_cache>[{"name":"a681795c-8bd2-4a21-a87b-c4119c120409.task","label":"2➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{}},{"name":"e3be141a-4b74-4efb-bc54-6b3ef0142072.table_name","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3be141a-4b74-4efb-bc54-6b3ef0142072.record","label":"1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.value_2","label":"Trigger➛Player Record Record➛Cost per utility","reference":"","reference_display":"Cost per utility","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_2"},{"name":"Updated_1.current.cash","label":"Trigger➛Player Record Record➛Cash","reference":"","reference_display":"Cash","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"cash"},{"name":"Updated_1.current.newassetavailable","label":"Trigger➛Player Record Record➛NewAssetAvailable","reference":"","reference_display":"NewAssetAvailable","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"newassetavailable"},{"name":"1178d885-acac-40ce-a0a0-691be6db1eb5.record","label":"1.1➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1178d885-acac-40ce-a0a0-691be6db1eb5.table_name","label":"1.1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.value_3","label":"Trigger➛Player Record Record➛Cost per office asset","reference":"","reference_display":"Cost per office asset","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_3"},{"name":"83631692-c011-4dfd-8f0d-94b6e72aa2f4.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"83631692-c011-4dfd-8f0d-94b6e72aa2f4.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.value_4","label":"Trigger➛Player Record Record➛Cost per imaging asset","reference":"","reference_display":"Cost per imaging asset","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_4"},{"name":"26bd4543-2b28-419e-89d7-cd56857d3b93.record","label":"1➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"26bd4543-2b28-419e-89d7-cd56857d3b93.table_name","label":"1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>47012d61db64d410df818278139619b7</latest_snapshot>
+        <master_snapshot>facba395db6c9410df8182781396191a</master_snapshot>
+        <name>Chit Chat</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>ff0820e5db20d410df8182781396199b</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 17:58:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>acba6355db6c9410df81827813961939</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Chit Chat</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_hub_flow_acba6355db6c9410df81827813961939</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=acba6355db6c9410df81827813961939"/>
+    <sys_variable_value action="delete_multiple" query="document_key=acba6355db6c9410df81827813961939"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_adventureman_player_record">item_1VALCHANGES^ORitem_7VALCHANGES^ORitem_8VALCHANGES^ORitem_9VALCHANGES^ORitem_4VALCHANGES^ORitem_5VALCHANGES^ORitem_6VALCHANGES^ORitem_2VALCHANGES^ORitem_3VALCHANGES^ORitem_10VALCHANGES^ORproduct_1VALCHANGES^ORproduct_10VALCHANGES^ORproduct_2VALCHANGES^ORproduct_3VALCHANGES^ORproduct_4VALCHANGES^ORproduct_5VALCHANGES^ORproduct_6VALCHANGES^ORproduct_7VALCHANGES^ORproduct_8VALCHANGES^ORproduct_9VALCHANGES^item_1!=1<item endquery="false" field="item_1" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="item_7" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_8" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_9" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_4" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_5" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_6" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_2" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_3" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_10" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_1" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_10" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_2" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_3" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_4" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_5" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_6" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_7" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_8" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="-- None --" endquery="false" field="product_9" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="item_1" goto="false" newquery="false" operator="!=" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff0820e5db20d410df8182781396199b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <table>x_snc_adventureman_player_record</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=acba6355db6c9410df81827813961939^sys_idNOT IN2116a465db20d410df818278139619cf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Chit Chat">acba6355db6c9410df81827813961939</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>2116a465db20d410df818278139619cf</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:55</sys_updated_on>
+        <ui_id>26bd4543-2b28-419e-89d7-cd56857d3b93</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2116a465db20d410df818278139619cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2116a465db20d410df818278139619cf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>7916a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2116a465db20d410df818278139619cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>a116a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <value>work_notes=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2116a465db20d410df818278139619cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>6d16a465db20d410df818278139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>a516a465db20d410df818278139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>2116a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=acba6355db6c9410df81827813961939^sys_idNOT IN374bab55db6c9410df818278139619ed"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Chit Chat">acba6355db6c9410df81827813961939</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>374bab55db6c9410df818278139619ed</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=374bab55db6c9410df818278139619ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>374bab55db6c9410df818278139619ed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>334bab55db6c9410df818278139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:01:29</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>374bab55db6c9410df818278139619ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>7f4bab55db6c9410df818278139619ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:38</sys_updated_on>
+        <value>item_1VALCHANGES^ORitem_7VALCHANGES^ORitem_8VALCHANGES^ORitem_9VALCHANGES^ORitem_4VALCHANGES^ORitem_5VALCHANGES^ORitem_6VALCHANGES^ORitem_2VALCHANGES^ORitem_3VALCHANGES^ORitem_10VALCHANGES^ORproduct_1VALCHANGES^ORproduct_10VALCHANGES^ORproduct_2VALCHANGES^ORproduct_3VALCHANGES^ORproduct_4VALCHANGES^ORproduct_5VALCHANGES^ORproduct_6VALCHANGES^ORproduct_7VALCHANGES^ORproduct_8VALCHANGES^ORproduct_9VALCHANGES^item_1!=1</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>374bab55db6c9410df818278139619ed</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>bb4bab55db6c9410df818278139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:01:29</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=acba6355db6c9410df81827813961939^sys_idNOT IN24ba6355db6c9410df8182781396193b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>acba6355db6c9410df81827813961939</id>
+        <name>Chit Chat</name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 17:58:49</sys_created_on>
+        <sys_id>24ba6355db6c9410df8182781396193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:58:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=acba6355db6c9410df81827813961939^sys_idNOT IN334bab55db6c9410df818278139619e0,bf4bab55db6c9410df818278139619e5,eb4bab55db6c9410df8182781396195d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD5401e961d264d4107f50ab3dfdd2932d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Chit Chat">acba6355db6c9410df81827813961939</model>
+        <model_id>acba6355db6c9410df81827813961939</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>334bab55db6c9410df818278139619e0</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Chit Chat">acba6355db6c9410df81827813961939</model>
+        <model_id>acba6355db6c9410df81827813961939</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>bf4bab55db6c9410df818278139619e5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Chit Chat">acba6355db6c9410df81827813961939</model>
+        <model_id>acba6355db6c9410df81827813961939</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>eb4bab55db6c9410df8182781396195d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=acba6355db6c9410df81827813961939^sys_idNOT IN2116a465db20d410df818278139619cf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Chit Chat">acba6355db6c9410df81827813961939</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>2116a465db20d410df818278139619cf</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:55</sys_updated_on>
+        <ui_id>26bd4543-2b28-419e-89d7-cd56857d3b93</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2116a465db20d410df818278139619cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2116a465db20d410df818278139619cf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>7916a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2116a465db20d410df818278139619cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>a116a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <value>work_notes=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2116a465db20d410df818278139619cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>6d16a465db20d410df818278139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>a516a465db20d410df818278139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2116a465db20d410df818278139619cf</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>2116a465db20d410df818278139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:18:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2116a465db20d410df818278139619cf^sys_idNOT INa916a465db20d410df818278139619d0"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>2116a465db20d410df818278139619cf</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"work_notes":{"scriptActive":true,"script":"var people \u003d [\u0027A colleague\u0027, \u0027A teammember\u0027, \u0027A local news affiliate\u0027, \u0027A customer survey\u0027];\nvar messages \u003d [\u0027has reported that they\\\u0027re excited about our growth\u0027, \u0027has reported that they\\\u0027re excited to see what\\\u0027s next\u0027, \u0027said, \"You\\\u0027re on a roll!\"\u0027, \u0027has said, \"Excellent Choice!\"\u0027, \u0027has said, \"Brilliant!\"\u0027, \u0027has said, \"Only up from here!\"\u0027, \u0027has agreed that was the best next move.\u0027];\nvar chance \u003d Math.random();\nvar threshold \u003d 0.5;\nif (chance \u003c threshold){\n    var random1 \u003d Math.floor(Math.random() * people.length);\n    var random2 \u003d Math.floor(Math.random() * messages.length);\n    return people[random1] + \u0027 \u0027 + messages[random2];\n} else return \u0027\u0027","savedValue":""}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:18:18</sys_created_on>
+        <sys_id>a916a465db20d410df818278139619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:29:00</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939^sys_idNOT IN334bab55db6c9410df818278139619ea,7b4bab55db6c9410df818278139619de,f74bab55db6c9410df818278139619e4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>334bab55db6c9410df818278139619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:01:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>7b4bab55db6c9410df818278139619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:01:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_acba6355db6c9410df81827813961939</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:01:29</sys_created_on>
+        <sys_id>f74bab55db6c9410df818278139619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:01:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=acba6355db6c9410df81827813961939^sys_idNOT IN07cba395db6c9410df81827813961958"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"07cba395db6c9410df81827813961958","name":"plan"}}</plan>
+        <plan_id>acba6355db6c9410df81827813961939</plan_id>
+        <snapshot>47012d61db64d410df818278139619b7</snapshot>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07cba395db6c9410df81827813961958</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <trigger display_value="">ff0820e5db20d410df8182781396199b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>chit_chat</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{}},{"name":"e3be141a-4b74-4efb-bc54-6b3ef0142072.table_name","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3be141a-4b74-4efb-bc54-6b3ef0142072.record","label":"1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.value_2","label":"Trigger➛Player Record Record➛Cost per utility","reference":"","reference_display":"Cost per utility","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_2"},{"name":"Updated_1.current.cash","label":"Trigger➛Player Record Record➛Cash","reference":"","reference_display":"Cash","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"cash"}]</label_cache>
+        <master>true</master>
+        <name>Chit Chat</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Chit Chat">acba6355db6c9410df81827813961939</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>facba395db6c9410df8182781396191a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=facba395db6c9410df8182781396191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=facba395db6c9410df8182781396191a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=facba395db6c9410df8182781396191a^sys_idNOT INaf0820e5db20d410df81827813961951"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Chit Chat">facba395db6c9410df8182781396191a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>af0820e5db20d410df81827813961951</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <ui_id>26bd4543-2b28-419e-89d7-cd56857d3b93</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=af0820e5db20d410df81827813961951"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af0820e5db20d410df81827813961951</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>6f0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af0820e5db20d410df81827813961951</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>ab0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <value>work_notes=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=af0820e5db20d410df81827813961951"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>670820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>a30820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>2b0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=facba395db6c9410df8182781396191a^sys_idNOT INc3cba395db6c9410df81827813961948"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Chit Chat">facba395db6c9410df8182781396191a</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_id>c3cba395db6c9410df81827813961948</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:44</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c3cba395db6c9410df81827813961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3cba395db6c9410df81827813961948</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_id>0fcba395db6c9410df81827813961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:37</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3cba395db6c9410df81827813961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_id>4bcba395db6c9410df81827813961949</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:42</sys_updated_on>
+        <value>item_1VALCHANGES^ORitem_7VALCHANGES^ORitem_8VALCHANGES^ORitem_9VALCHANGES^ORitem_4VALCHANGES^ORitem_5VALCHANGES^ORitem_6VALCHANGES^ORitem_2VALCHANGES^ORitem_3VALCHANGES^ORitem_10VALCHANGES^ORproduct_1VALCHANGES^ORproduct_10VALCHANGES^ORproduct_2VALCHANGES^ORproduct_3VALCHANGES^ORproduct_4VALCHANGES^ORproduct_5VALCHANGES^ORproduct_6VALCHANGES^ORproduct_7VALCHANGES^ORproduct_8VALCHANGES^ORproduct_9VALCHANGES^item_1!=1</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3cba395db6c9410df81827813961948</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_id>87cba395db6c9410df81827813961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:37</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=facba395db6c9410df8182781396191a^sys_idNOT INf2cba395db6c9410df8182781396191b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>facba395db6c9410df8182781396191a</id>
+        <name>Chit Chat</name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>f2cba395db6c9410df8182781396191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=facba395db6c9410df8182781396191a^sys_idNOT INb6cba395db6c9410df81827813961934,becba395db6c9410df8182781396191d,f2cba395db6c9410df8182781396192b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Chit Chat">facba395db6c9410df8182781396191a</model>
+        <model_id>facba395db6c9410df8182781396191a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>b6cba395db6c9410df81827813961934</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Chit Chat">facba395db6c9410df8182781396191a</model>
+        <model_id>facba395db6c9410df8182781396191a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>becba395db6c9410df8182781396191d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD5401e961d264d4107f50ab3dfdd2932d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Chit Chat">facba395db6c9410df8182781396191a</model>
+        <model_id>facba395db6c9410df8182781396191a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>f2cba395db6c9410df8182781396192b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=facba395db6c9410df8182781396191a^sys_idNOT INaf0820e5db20d410df81827813961951"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Chit Chat">facba395db6c9410df8182781396191a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>af0820e5db20d410df81827813961951</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:35:43</sys_updated_on>
+        <ui_id>26bd4543-2b28-419e-89d7-cd56857d3b93</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=af0820e5db20d410df81827813961951"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af0820e5db20d410df81827813961951</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>6f0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af0820e5db20d410df81827813961951</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>ab0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <value>work_notes=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=af0820e5db20d410df81827813961951"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>670820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>a30820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>af0820e5db20d410df81827813961951</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>2b0820e5db20d410df81827813961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=af0820e5db20d410df81827813961951^sys_idNOT INaf0820e5db20d410df81827813961952"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>af0820e5db20d410df81827813961951</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"work_notes":{"scriptActive":true,"script":"var people \u003d [\u0027A colleague\u0027, \u0027A teammember\u0027, \u0027A local news affiliate\u0027, \u0027A customer survey\u0027];\nvar messages \u003d [\u0027has reported that they\\\u0027re excited about our growth\u0027, \u0027has reported that they\\\u0027re excited to see what\\\u0027s next\u0027, \u0027said, \"You\\\u0027re on a roll!\"\u0027, \u0027has said, \"Excellent Choice!\"\u0027, \u0027has said, \"Brilliant!\"\u0027, \u0027has said, \"Only up from here!\"\u0027, \u0027has agreed that was the best next move.\u0027];\nvar chance \u003d Math.random();\nvar threshold \u003d 0.5;\nif (chance \u003c threshold){\n    var random1 \u003d Math.floor(Math.random() * people.length);\n    var random2 \u003d Math.floor(Math.random() * messages.length);\n    return people[random1] + \u0027 \u0027 + messages[random2];\n} else return \u0027\u0027","savedValue":""}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 22:26:53</sys_created_on>
+        <sys_id>af0820e5db20d410df81827813961952</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 22:29:06</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a^sys_idNOT IN36cba395db6c9410df81827813961939,76cba395db6c9410df81827813961930,bacba395db6c9410df81827813961922"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:37</sys_created_on>
+        <sys_id>36cba395db6c9410df81827813961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>76cba395db6c9410df81827813961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_facba395db6c9410df8182781396191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 18:03:36</sys_created_on>
+        <sys_id>bacba395db6c9410df81827813961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:03:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

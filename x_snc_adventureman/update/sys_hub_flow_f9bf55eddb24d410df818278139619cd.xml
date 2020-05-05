@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>reset_all</internal_name>
+        <label_cache>[{"name":"39fd7b82-777e-47c5-994f-887fdd9d287e.task","label":"2.2➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bded33b-0838-4366-8180-854e1aece0b6.table_name","label":"2.1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8bded33b-0838-4366-8180-854e1aece0b6.record","label":"2.1➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c658f972-3076-4ef9-a891-afd768bc2e33.item","label":"2➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"52bcf8fb-0626-4698-b2a9-5027a01e4d53.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52bcf8fb-0626-4698-b2a9-5027a01e4d53.Table","label":"1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"52bcf8fb-0626-4698-b2a9-5027a01e4d53.Records","label":"1➛Player Record Records","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"510ff833-de99-467f-9d5f-3e169f0077f3.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"510ff833-de99-467f-9d5f-3e169f0077f3.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c658f972-3076-4ef9-a891-afd768bc2e33.item.player","label":"2➛Player Record Record➛Player","reference":"sys_user","reference_display":"Player","type":"reference","base_type":"reference","parent_table_name":"x_snc_adventureman_player_record","column_name":"player"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Reset All!</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:30:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9bf55eddb24d410df818278139619cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reset All!</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_hub_flow_f9bf55eddb24d410df818278139619cd</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9bf55eddb24d410df818278139619cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9bf55eddb24d410df818278139619cd"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f9bf55eddb24d410df818278139619cd^sys_idNOT IN16406521db64d410df818278139619f4,5e406521db64d410df818278139619fc,92406521db64d410df818278139619f9,96406521db64d410df818278139619ff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>16406521db64d410df818278139619f4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>52bcf8fb-0626-4698-b2a9-5027a01e4d53</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16406521db64d410df818278139619f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16406521db64d410df818278139619f4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>12406521db64d410df818278139619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>2.2</order>
+        <parent_ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>5e406521db64d410df818278139619fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>39fd7b82-777e-47c5-994f-887fdd9d287e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e406521db64d410df818278139619fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e406521db64d410df818278139619fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>56406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>Looks like the big boss made us start over. Everything has been reset.</value>
+        <variable display_value="">157227a473210300e4fd234ffff6a722</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e406521db64d410df818278139619fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>5e406521db64d410df818278139619fc</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>12406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value>{{8bded33b-0838-4366-8180-854e1aece0b6.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_note</field>
+        <id>5e406521db64d410df818278139619fc</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>d2406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>2.1</order>
+        <parent_ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>92406521db64d410df818278139619f9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>8bded33b-0838-4366-8180-854e1aece0b6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=92406521db64d410df818278139619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92406521db64d410df818278139619f9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>5e406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=92406521db64d410df818278139619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>92406521db64d410df818278139619f9</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>1a406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>92406521db64d410df818278139619f9</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>da406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>player={{c658f972-3076-4ef9-a891-afd768bc2e33.item.player}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">da406521db64d410df818278139619fe</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>96406521db64d410df818278139619ff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=96406521db64d410df818278139619ff"/>
+    <sys_element_mapping action="delete_multiple" query="id=96406521db64d410df818278139619ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>96406521db64d410df818278139619ff</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>de40a521db64d410df8182781396190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{52bcf8fb-0626-4698-b2a9-5027a01e4d53.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f9bf55eddb24d410df818278139619cd^sys_idNOT IN9a406521db64d410df8182781396191b"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>9a406521db64d410df8182781396191b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9a406521db64d410df8182781396191b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9a406521db64d410df8182781396191b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>5e406521db64d410df8182781396191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>2020-04-28 01:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f9bf55eddb24d410df818278139619cd^sys_idNOT IN71bf55eddb24d410df818278139619cf"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f9bf55eddb24d410df818278139619cd</id>
+        <name>Reset All!</name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:30:05</sys_created_on>
+        <sys_id>71bf55eddb24d410df818278139619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:30:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f9bf55eddb24d410df818278139619cd^sys_idNOT IN16406521db64d410df818278139619f4,5e406521db64d410df818278139619fc,92406521db64d410df818278139619f9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>16406521db64d410df818278139619f4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>52bcf8fb-0626-4698-b2a9-5027a01e4d53</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16406521db64d410df818278139619f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16406521db64d410df818278139619f4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>12406521db64d410df818278139619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>2.2</order>
+        <parent_ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>5e406521db64d410df818278139619fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>39fd7b82-777e-47c5-994f-887fdd9d287e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e406521db64d410df818278139619fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e406521db64d410df818278139619fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>56406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>Looks like the big boss made us start over. Everything has been reset.</value>
+        <variable display_value="">157227a473210300e4fd234ffff6a722</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e406521db64d410df818278139619fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>5e406521db64d410df818278139619fc</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>12406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value>{{8bded33b-0838-4366-8180-854e1aece0b6.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_note</field>
+        <id>5e406521db64d410df818278139619fc</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>d2406521db64d410df818278139619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <order>2.1</order>
+        <parent_ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>92406521db64d410df818278139619f9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>8bded33b-0838-4366-8180-854e1aece0b6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=92406521db64d410df818278139619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92406521db64d410df818278139619f9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>5e406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=92406521db64d410df818278139619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>92406521db64d410df818278139619f9</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>1a406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>92406521db64d410df818278139619f9</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>da406521db64d410df818278139619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>player={{c658f972-3076-4ef9-a891-afd768bc2e33.item.player}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f9bf55eddb24d410df818278139619cd^sys_idNOT IN96406521db64d410df818278139619ff"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">da406521db64d410df818278139619fe</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reset All!">f9bf55eddb24d410df818278139619cd</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>96406521db64d410df818278139619ff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:33:33</sys_updated_on>
+        <ui_id>c658f972-3076-4ef9-a891-afd768bc2e33</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=96406521db64d410df818278139619ff"/>
+    <sys_element_mapping action="delete_multiple" query="id=96406521db64d410df818278139619ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>96406521db64d410df818278139619ff</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 02:32:34</sys_created_on>
+        <sys_id>de40a521db64d410df8182781396190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:32:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{52bcf8fb-0626-4698-b2a9-5027a01e4d53.Records}}</value>
+    </sys_element_mapping>
+</record_update>

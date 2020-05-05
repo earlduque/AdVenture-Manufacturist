@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Player Record" max_length="40" name="x_snc_adventureman_player_record" read_only="true" sizeclass="18" type="collection">
+        <element default="0.01" label="Accrual 1" max_length="20" name="accrual_1" read_only="true" type="currency"/>
+        <element default="1000000000" label="Accrual 10" max_length="20" name="accrual_10" read_only="true" type="currency"/>
+        <element default="0.1" label="Accrual 2" max_length="20" name="accrual_2" read_only="true" type="currency"/>
+        <element default="10" label="Accrual 3" max_length="20" name="accrual_3" read_only="true" type="currency"/>
+        <element default="1000" label="Accrual 4" max_length="20" name="accrual_4" read_only="true" type="currency"/>
+        <element default="10000" label="Accrual 5" max_length="20" name="accrual_5" read_only="true" type="currency"/>
+        <element default="100000" label="Accrual 6" max_length="20" name="accrual_6" read_only="true" type="currency"/>
+        <element default="1000000" label="Accrual 7" max_length="20" name="accrual_7" read_only="true" type="currency"/>
+        <element default="10000000" label="Accrual 8" max_length="20" name="accrual_8" read_only="true" type="currency"/>
+        <element default="100000000" label="Accrual 9" max_length="20" name="accrual_9" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Accrual Rate" max_length="20" name="accrual_rate" type="currency"/>
+        <element attributes="isOrder=true" default="5" label="Cash" max_length="20" name="cash" read_only="true" type="currency"/>
+        <element default="1" label="Information Services Assets" max_length="40" name="item_1" read_only="true" type="integer"/>
+        <element default="0" label="Necessary Components" max_length="40" name="item_10" read_only="true" type="integer"/>
+        <element default="0" label="Utility Services Assets" max_length="40" name="item_2" read_only="true" type="integer"/>
+        <element default="0" label="Working Environment Assets" max_length="40" name="item_3" read_only="true" type="integer"/>
+        <element default="0" label="Imaging Services Assets" max_length="40" name="item_4" read_only="true" type="integer"/>
+        <element default="0" label="Materials Science Engineering Assets" max_length="40" name="item_5" read_only="true" type="integer"/>
+        <element default="0" label="Transportation Network Assets" max_length="40" name="item_6" read_only="true" type="integer"/>
+        <element default="0" label="Advanced Materials Assets" max_length="40" name="item_7" read_only="true" type="integer"/>
+        <element default="0" label="Delivery Network Assets" max_length="40" name="item_8" read_only="true" type="integer"/>
+        <element default="0" label="Entertainment Assets" max_length="40" name="item_9" read_only="true" type="integer"/>
+        <element default="100" label="NewAssetAvailable" max_length="20" name="newassetavailable" read_only="true" type="currency"/>
+        <element default="javascript:gs.getUserID()" display="true" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Player" max_length="32" name="player" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" default="1" label="Product 1" max_length="40" name="product_1" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Books" value="11"/>
+                <element inactive_on_update="false" label="Books 2.0" value="12"/>
+                <element inactive_on_update="false" label="Books 3.0" value="13"/>
+                <element inactive_on_update="false" label="Books 4.0" value="14"/>
+                <element inactive_on_update="false" label="Books 5.0" value="15"/>
+                <element inactive_on_update="false" label="Encyclopedia Volumes" value="16"/>
+                <element inactive_on_update="false" label="Encyclopedia Volumes 2.0" value="17"/>
+                <element inactive_on_update="false" label="Encyclopedia Volumes 3.0" value="18"/>
+                <element inactive_on_update="false" label="Encyclopedia Volumes 4.0" value="19"/>
+                <element inactive_on_update="false" label="Encyclopedia Volumes 5.0" value="20"/>
+                <element inactive_on_update="false" label="Paper Sheets" value="1"/>
+                <element inactive_on_update="false" label="Paper Sheets 2.0" value="2"/>
+                <element inactive_on_update="false" label="Paper Sheets 3.0" value="3"/>
+                <element inactive_on_update="false" label="Paper Sheets 4.0" value="4"/>
+                <element inactive_on_update="false" label="Paper Sheets 5.0" value="5"/>
+                <element inactive_on_update="false" label="Reams" value="6"/>
+                <element inactive_on_update="false" label="Reams 2.0" value="7"/>
+                <element inactive_on_update="false" label="Reams 3.0" value="8"/>
+                <element inactive_on_update="false" label="Reams 4.0" value="9"/>
+                <element inactive_on_update="false" label="Reams 5.0" value="10"/>
+                <element inactive_on_update="false" label="Thumb Drives" value="21"/>
+                <element inactive_on_update="false" label="Thumb Drives 2.0" value="22"/>
+                <element inactive_on_update="false" label="Thumb Drives 3.0" value="23"/>
+                <element inactive_on_update="false" label="Thumb Drives 4.0" value="24"/>
+                <element inactive_on_update="false" label="Thumb Drives 5.0" value="25"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 10" max_length="40" name="product_10" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Andrew" value="11"/>
+                <element inactive_on_update="false" label="Andrew 2.0" value="12"/>
+                <element inactive_on_update="false" label="Andrew 3.0" value="13"/>
+                <element inactive_on_update="false" label="Andrew 4.0" value="14"/>
+                <element inactive_on_update="false" label="Andrew 5.0" value="15"/>
+                <element inactive_on_update="false" label="Brad" value="6"/>
+                <element inactive_on_update="false" label="Brad 2.0" value="7"/>
+                <element inactive_on_update="false" label="Brad 3.0" value="8"/>
+                <element inactive_on_update="false" label="Brad 4.0" value="9"/>
+                <element inactive_on_update="false" label="Brad 5.0" value="10"/>
+                <element inactive_on_update="false" label="Chuck" value="16"/>
+                <element inactive_on_update="false" label="Chuck 2.0" value="17"/>
+                <element inactive_on_update="false" label="Chuck 3.0" value="18"/>
+                <element inactive_on_update="false" label="Chuck 4.0" value="19"/>
+                <element inactive_on_update="false" label="Chuck 5.0" value="20"/>
+                <element inactive_on_update="false" label="Developers named Earl" value="1"/>
+                <element inactive_on_update="false" label="Earl 2.0" value="2"/>
+                <element inactive_on_update="false" label="Earl 3.0" value="3"/>
+                <element inactive_on_update="false" label="Earl 4.0" value="4"/>
+                <element inactive_on_update="false" label="Earl 5.0" value="5"/>
+                <element inactive_on_update="false" label="Mcdermott" value="21"/>
+                <element inactive_on_update="false" label="Mcdermott 2.0" value="22"/>
+                <element inactive_on_update="false" label="Mcdermott 3.0" value="23"/>
+                <element inactive_on_update="false" label="Mcdermott 4.0" value="24"/>
+                <element inactive_on_update="false" label="Mcdermott's Final Form" value="25"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 2" max_length="40" name="product_2" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Coal" value="1"/>
+                <element inactive_on_update="false" label="Coal 2.0" value="2"/>
+                <element inactive_on_update="false" label="Coal 3.0" value="3"/>
+                <element inactive_on_update="false" label="Coal 4.0" value="4"/>
+                <element inactive_on_update="false" label="Coal 5.0" value="5"/>
+                <element inactive_on_update="false" label="Electric Transformers" value="11"/>
+                <element inactive_on_update="false" label="Electric Transformers 2.0" value="12"/>
+                <element inactive_on_update="false" label="Electric Transformers 3.0" value="13"/>
+                <element inactive_on_update="false" label="Electric Transformers 4.0" value="14"/>
+                <element inactive_on_update="false" label="Electric Transformers 5.0" value="15"/>
+                <element inactive_on_update="false" label="Solar Power Panels" value="16"/>
+                <element inactive_on_update="false" label="Solar Power Panels 2.0" value="17"/>
+                <element inactive_on_update="false" label="Solar Power Panels 3.0" value="18"/>
+                <element inactive_on_update="false" label="Solar Power Panels 4.0" value="19"/>
+                <element inactive_on_update="false" label="Solar Power Panels 5.0" value="20"/>
+                <element inactive_on_update="false" label="Solar Power That Actually Works!" value="21"/>
+                <element inactive_on_update="false" label="Solar Power That Actually Works! 2.0" value="22"/>
+                <element inactive_on_update="false" label="Solar Power That Actually Works! 3.0" value="23"/>
+                <element inactive_on_update="false" label="Solar Power That Actually Works! 4.0" value="24"/>
+                <element inactive_on_update="false" label="Solar Power That Actually Works! 5.0" value="25"/>
+                <element inactive_on_update="false" label="Windmills" value="6"/>
+                <element inactive_on_update="false" label="Windmills 2.0" value="7"/>
+                <element inactive_on_update="false" label="Windmills 3.0" value="8"/>
+                <element inactive_on_update="false" label="Windmills 4.0" value="9"/>
+                <element inactive_on_update="false" label="Windmills 5.0" value="10"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 3" max_length="40" name="product_3" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cubicle Decorations" value="11"/>
+                <element inactive_on_update="false" label="Cubicle Decorations 2.0" value="12"/>
+                <element inactive_on_update="false" label="Cubicle Decorations 3.0" value="13"/>
+                <element inactive_on_update="false" label="Cubicle Decorations 4.0" value="14"/>
+                <element inactive_on_update="false" label="Cubicle Decorations 5.0" value="15"/>
+                <element inactive_on_update="false" label="Free Donuts" value="21"/>
+                <element inactive_on_update="false" label="Free Donuts 2.0" value="22"/>
+                <element inactive_on_update="false" label="Free Donuts 3.0" value="23"/>
+                <element inactive_on_update="false" label="Free Donuts 4.0" value="24"/>
+                <element inactive_on_update="false" label="Free Donuts 5.0" value="25"/>
+                <element inactive_on_update="false" label="Individual Offices" value="16"/>
+                <element inactive_on_update="false" label="Individual Offices 2.0" value="17"/>
+                <element inactive_on_update="false" label="Individual Offices 3.0" value="18"/>
+                <element inactive_on_update="false" label="Individual Offices 4.0" value="19"/>
+                <element inactive_on_update="false" label="Individual Offices 5.0" value="20"/>
+                <element inactive_on_update="false" label="Vending Machines" value="6"/>
+                <element inactive_on_update="false" label="Vending Machines 2.0" value="7"/>
+                <element inactive_on_update="false" label="Vending Machines 3.0" value="8"/>
+                <element inactive_on_update="false" label="Vending Machines 4.0" value="9"/>
+                <element inactive_on_update="false" label="Vending Machines 5.0" value="10"/>
+                <element inactive_on_update="false" label="Workroom trinkets" value="1"/>
+                <element inactive_on_update="false" label="Workroom trinkets 2.0" value="2"/>
+                <element inactive_on_update="false" label="Workroom trinkets 3.0" value="3"/>
+                <element inactive_on_update="false" label="Workroom trinkets 4.0" value="4"/>
+                <element inactive_on_update="false" label="Workroom trinkets 5.0" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 4" max_length="40" name="product_4" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Glass" value="6"/>
+                <element inactive_on_update="false" label="Glass 2.0" value="7"/>
+                <element inactive_on_update="false" label="Glass 3.0" value="8"/>
+                <element inactive_on_update="false" label="Glass 4.0" value="9"/>
+                <element inactive_on_update="false" label="Glass 5.0" value="10"/>
+                <element inactive_on_update="false" label="Laz0rs that actually go Pew Pew" value="22"/>
+                <element inactive_on_update="false" label="Laz0rs that actually go Pew Pew" value="21"/>
+                <element inactive_on_update="false" label="Laz0rs that actually go Pew Pew" value="25"/>
+                <element inactive_on_update="false" label="Laz0rs that actually go Pew Pew" value="24"/>
+                <element inactive_on_update="false" label="Laz0rs that actually go Pew Pew" value="23"/>
+                <element inactive_on_update="false" label="Magnets" value="16"/>
+                <element inactive_on_update="false" label="Magnets 2.0" value="17"/>
+                <element inactive_on_update="false" label="Magnets 3.0" value="18"/>
+                <element inactive_on_update="false" label="Magnets 4.0" value="19"/>
+                <element inactive_on_update="false" label="Magnets 5.0" value="20"/>
+                <element inactive_on_update="false" label="Mirrors" value="11"/>
+                <element inactive_on_update="false" label="Mirrors 2.0" value="12"/>
+                <element inactive_on_update="false" label="Mirrors 3.0" value="13"/>
+                <element inactive_on_update="false" label="Mirrors 4.0" value="14"/>
+                <element inactive_on_update="false" label="Mirrors 5.0" value="15"/>
+                <element inactive_on_update="false" label="Sand" value="1"/>
+                <element inactive_on_update="false" label="Sand 2.0" value="2"/>
+                <element inactive_on_update="false" label="Sand 3.0" value="3"/>
+                <element inactive_on_update="false" label="Sand 4.0" value="4"/>
+                <element inactive_on_update="false" label="Sand 5.0" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 5" max_length="40" name="product_5" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Anvils" value="16"/>
+                <element inactive_on_update="false" label="Anvils 2.0" value="17"/>
+                <element inactive_on_update="false" label="Anvils 3.0" value="18"/>
+                <element inactive_on_update="false" label="Anvils 4.0" value="19"/>
+                <element inactive_on_update="false" label="Anvils 5.0" value="20"/>
+                <element inactive_on_update="false" label="Black Holes" value="21"/>
+                <element inactive_on_update="false" label="Black Holes 2.0" value="22"/>
+                <element inactive_on_update="false" label="Black Holes 3.0" value="23"/>
+                <element inactive_on_update="false" label="Black Holes 4.0" value="24"/>
+                <element inactive_on_update="false" label="Black Holes 5.0" value="25"/>
+                <element inactive_on_update="false" label="Metal Sheets" value="6"/>
+                <element inactive_on_update="false" label="Metal Sheets 2.0" value="7"/>
+                <element inactive_on_update="false" label="Metal Sheets 3.0" value="8"/>
+                <element inactive_on_update="false" label="Metal Sheets 4.0" value="9"/>
+                <element inactive_on_update="false" label="Metal Sheets 5.0" value="10"/>
+                <element inactive_on_update="false" label="Rebar" value="11"/>
+                <element inactive_on_update="false" label="Rebar 2.0" value="12"/>
+                <element inactive_on_update="false" label="Rebar 3.0" value="13"/>
+                <element inactive_on_update="false" label="Rebar 4.0" value="14"/>
+                <element inactive_on_update="false" label="Rebar 5.0" value="15"/>
+                <element inactive_on_update="false" label="Screws" value="1"/>
+                <element inactive_on_update="false" label="Screws 2.0" value="2"/>
+                <element inactive_on_update="false" label="Screws 3.0" value="3"/>
+                <element inactive_on_update="false" label="Screws 4.0" value="4"/>
+                <element inactive_on_update="false" label="Screws 5.0" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 6" max_length="40" name="product_6" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Asphalt highways" value="11"/>
+                <element inactive_on_update="false" label="Asphalt highways 2.0" value="12"/>
+                <element inactive_on_update="false" label="Asphalt highways 3.0" value="13"/>
+                <element inactive_on_update="false" label="Asphalt highways 4.0" value="14"/>
+                <element inactive_on_update="false" label="Asphalt highways 5.0" value="15"/>
+                <element inactive_on_update="false" label="Dirt paths" value="1"/>
+                <element inactive_on_update="false" label="Dirt paths 2.0" value="2"/>
+                <element inactive_on_update="false" label="Dirt paths 3.0" value="3"/>
+                <element inactive_on_update="false" label="Dirt paths 4.0" value="4"/>
+                <element inactive_on_update="false" label="Dirt paths 5.0" value="5"/>
+                <element inactive_on_update="false" label="Giant Trebuchets" value="21"/>
+                <element inactive_on_update="false" label="Giant Trebuchets 2.0" value="22"/>
+                <element inactive_on_update="false" label="Giant Trebuchets 3.0" value="23"/>
+                <element inactive_on_update="false" label="Giant Trebuchets 4.0" value="24"/>
+                <element inactive_on_update="false" label="Giant Trebuchets 5.0" value="25"/>
+                <element inactive_on_update="false" label="High Speed Tunnels" value="16"/>
+                <element inactive_on_update="false" label="High Speed Tunnels 2.0" value="17"/>
+                <element inactive_on_update="false" label="High Speed Tunnels 3.0" value="18"/>
+                <element inactive_on_update="false" label="High Speed Tunnels 4.0" value="19"/>
+                <element inactive_on_update="false" label="High Speed Tunnels 5.0" value="20"/>
+                <element inactive_on_update="false" label="Pebble Roads" value="6"/>
+                <element inactive_on_update="false" label="Pebble Roads 2.0" value="7"/>
+                <element inactive_on_update="false" label="Pebble Roads 3.0" value="8"/>
+                <element inactive_on_update="false" label="Pebble Roads 4.0" value="9"/>
+                <element inactive_on_update="false" label="Pebble Roads 5.0" value="10"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 7" max_length="40" name="product_7" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extrusion" value="6"/>
+                <element inactive_on_update="false" label="Extrusion 2.0" value="7"/>
+                <element inactive_on_update="false" label="Extrusion 3.0" value="8"/>
+                <element inactive_on_update="false" label="Extrusion 4.0" value="9"/>
+                <element inactive_on_update="false" label="Extrusion 5.0" value="10"/>
+                <element inactive_on_update="false" label="Fancy Shoes" value="21"/>
+                <element inactive_on_update="false" label="Fancy Shoes 2.0" value="22"/>
+                <element inactive_on_update="false" label="Fancy Shoes 3.0" value="23"/>
+                <element inactive_on_update="false" label="Fancy Shoes 4.0" value="24"/>
+                <element inactive_on_update="false" label="Fancy Shoes 5.0" value="25"/>
+                <element inactive_on_update="false" label="Injection Molding" value="11"/>
+                <element inactive_on_update="false" label="Injection Molding 2.0" value="12"/>
+                <element inactive_on_update="false" label="Injection Molding 3.0" value="13"/>
+                <element inactive_on_update="false" label="Injection Molding 4.0" value="14"/>
+                <element inactive_on_update="false" label="Injection Molding 5.0" value="15"/>
+                <element inactive_on_update="false" label="Plastic bottle" value="16"/>
+                <element inactive_on_update="false" label="Plastic bottle 2.0" value="17"/>
+                <element inactive_on_update="false" label="Plastic bottle 3.0" value="18"/>
+                <element inactive_on_update="false" label="Plastic bottle 4.0" value="19"/>
+                <element inactive_on_update="false" label="Plastic bottle 5.0" value="20"/>
+                <element inactive_on_update="false" label="Plastic Polymer" value="1"/>
+                <element inactive_on_update="false" label="Plastic Polymer 2.0" value="2"/>
+                <element inactive_on_update="false" label="Plastic Polymer 3.0" value="3"/>
+                <element inactive_on_update="false" label="Plastic Polymer 4.0" value="4"/>
+                <element inactive_on_update="false" label="Plastic Polymer 5.0" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 8" max_length="40" name="product_8" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bicycle Couriers" value="1"/>
+                <element inactive_on_update="false" label="Bicycle Couriers 2.0" value="2"/>
+                <element inactive_on_update="false" label="Bicycle Couriers 3.0" value="3"/>
+                <element inactive_on_update="false" label="Bicycle Couriers 4.0" value="4"/>
+                <element inactive_on_update="false" label="Bicycle Couriers 5.0" value="5"/>
+                <element inactive_on_update="false" label="Email Servers" value="16"/>
+                <element inactive_on_update="false" label="Email Servers 2.0" value="17"/>
+                <element inactive_on_update="false" label="Email Servers 3.0" value="18"/>
+                <element inactive_on_update="false" label="Email Servers 4.0" value="19"/>
+                <element inactive_on_update="false" label="Email Servers 5.0" value="20"/>
+                <element inactive_on_update="false" label="Mail trucks" value="6"/>
+                <element inactive_on_update="false" label="Mail trucks 2.0" value="7"/>
+                <element inactive_on_update="false" label="Mail trucks 3.0" value="8"/>
+                <element inactive_on_update="false" label="Mail trucks 4.0" value="9"/>
+                <element inactive_on_update="false" label="Mail trucks 5.0" value="10"/>
+                <element inactive_on_update="false" label="Telepathy Nodes" value="21"/>
+                <element inactive_on_update="false" label="Telepathy Nodes 2.0" value="22"/>
+                <element inactive_on_update="false" label="Telepathy Nodes 3.0" value="23"/>
+                <element inactive_on_update="false" label="Telepathy Nodes 4.0" value="24"/>
+                <element inactive_on_update="false" label="Telepathy Nodes 5.0" value="25"/>
+                <element inactive_on_update="false" label="Two day delivery planes" value="11"/>
+                <element inactive_on_update="false" label="Two day delivery planes 2.0" value="12"/>
+                <element inactive_on_update="false" label="Two day delivery planes 3.0" value="13"/>
+                <element inactive_on_update="false" label="Two day delivery planes 4.0" value="14"/>
+                <element inactive_on_update="false" label="Two day delivery planes 5.0" value="15"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Product 9" max_length="40" name="product_9" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Board games" value="1"/>
+                <element inactive_on_update="false" label="Board games 2.0" value="2"/>
+                <element inactive_on_update="false" label="Board games 3.0" value="3"/>
+                <element inactive_on_update="false" label="Board games 4.0" value="4"/>
+                <element inactive_on_update="false" label="Board games 5.0" value="5"/>
+                <element inactive_on_update="false" label="Death-Colliseums" value="21"/>
+                <element inactive_on_update="false" label="Death-Colliseums 2.0" value="22"/>
+                <element inactive_on_update="false" label="Death-Colliseums 3.0" value="23"/>
+                <element inactive_on_update="false" label="Death-Colliseums 4.0" value="24"/>
+                <element inactive_on_update="false" label="Death-Colliseums 5.0" value="25"/>
+                <element inactive_on_update="false" label="Fantasy Sports" value="11"/>
+                <element inactive_on_update="false" label="Fantasy Sports 2.0" value="12"/>
+                <element inactive_on_update="false" label="Fantasy Sports 3.0" value="13"/>
+                <element inactive_on_update="false" label="Fantasy Sports 4.0" value="14"/>
+                <element inactive_on_update="false" label="Fantasy Sports 5.0" value="15"/>
+                <element inactive_on_update="false" label="Sports team" value="16"/>
+                <element inactive_on_update="false" label="Sports team 2.0" value="17"/>
+                <element inactive_on_update="false" label="Sports team 3.0" value="18"/>
+                <element inactive_on_update="false" label="Sports team 4.0" value="19"/>
+                <element inactive_on_update="false" label="Sports team 5.0" value="20"/>
+                <element inactive_on_update="false" label="Video games" value="6"/>
+                <element inactive_on_update="false" label="Video games 2.0" value="7"/>
+                <element inactive_on_update="false" label="Video games 3.0" value="8"/>
+                <element inactive_on_update="false" label="Video games 4.0" value="9"/>
+                <element inactive_on_update="false" label="Video games 5.0" value="10"/>
+            </choice>
+        </element>
+        <element default="0.1" label="Next upgrade cost 1" max_length="20" name="upgrade_1" read_only="true" type="currency"/>
+        <element default="10000000000000000000" label="Next upgrade cost 10" max_length="20" name="upgrade_10" read_only="true" type="currency"/>
+        <element default="40" label="Next upgrade cost 2" max_length="20" name="upgrade_2" read_only="true" type="currency"/>
+        <element default="9000" label="Next upgrade cost 3" max_length="20" name="upgrade_3" read_only="true" type="currency"/>
+        <element default="1600000" label="Next upgrade cost 4" max_length="20" name="upgrade_4" read_only="true" type="currency"/>
+        <element default="250000000" label="Next upgrade cost 5" max_length="20" name="upgrade_5" read_only="true" type="currency"/>
+        <element default="36000000000" label="Next upgrade cost 6" max_length="20" name="upgrade_6" read_only="true" type="currency"/>
+        <element default="4900000000000" label="Next upgrade cost 7" max_length="20" name="upgrade_7" read_only="true" type="currency"/>
+        <element default="640000000000000" label="Next upgrade cost 8" max_length="20" name="upgrade_8" read_only="true" type="currency"/>
+        <element default="81000000000000000" label="Next upgrade cost 9" max_length="20" name="upgrade_9" read_only="true" type="currency"/>
+        <element default="0.1" label="Cost per IS asset" max_length="20" name="value_1" read_only="true" type="currency"/>
+        <element default="100000000000000000" label="Cost per developer" max_length="20" name="value_10" read_only="true" type="currency"/>
+        <element default="10" label="Cost per utility" max_length="20" name="value_2" read_only="true" type="currency"/>
+        <element default="1000" label="Cost per office asset" max_length="20" name="value_3" read_only="true" type="currency"/>
+        <element default="100000" label="Cost per imaging asset" max_length="20" name="value_4" read_only="true" type="currency"/>
+        <element default="10000000" label="Cost per MSE asset" max_length="20" name="value_5" read_only="true" type="currency"/>
+        <element default="1000000000" label="Cost per transport method" max_length="20" name="value_6" read_only="true" type="currency"/>
+        <element default="100000000000" label="Cost per advanced mat" max_length="20" name="value_7" read_only="true" type="currency"/>
+        <element default="10000000000000" label="Cost per delivery method" max_length="20" name="value_8" read_only="true" type="currency"/>
+        <element default="1000000000000000" label="Cost per entertainment asset" max_length="20" name="value_9" read_only="true" type="currency"/>
+    </element>
+</database>

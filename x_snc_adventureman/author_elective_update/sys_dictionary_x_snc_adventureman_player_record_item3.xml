@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="item3" table="x_snc_adventureman_player_record">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Positive Working Environment</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>0</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_adventureman_player_record</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-01 23:06:39</sys_created_on>
+        <sys_id>8c972bc5db68541068c82095ca9619d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Positive Working Environment</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_adventureman_player_record_item3</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:52:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>sys_dictionary_x_snc_adventureman_player_record_item3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="item3" table="x_snc_adventureman_player_record"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Positive Working Environment</column_label><comments/><create_roles/><default_value>0</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>item3</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_adventureman_player_record</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-01 23:06:39</sys_created_on><sys_id>8c972bc5db68541068c82095ca9619d6</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Positive Working Environment</sys_name><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>sys_dictionary_x_snc_adventureman_player_record_item3</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-01 23:52:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1345002240</payload_hash>
+        <record_name>Player Record.Positive Working Environment</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-01 23:52:56</sys_created_on>
+        <sys_id>8622bf4ddb68541068c82095ca961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d2a8486d0000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:52:56</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>0222bf4d57685410b3c0c22db2343913</update_guid>
+        <update_guid_history>0222bf4d57685410b3c0c22db2343913:-1345002240,9db9e349ec685410c3a0df8b83046f4f:-2093855603,4de8e70935685410a66ca7f6e333c8cb:-2112575444,01a82709e76854103770f32a0a7f44c7:1539995600,4d976bc5ad685410a887a5d36a6d0e70:-499873783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:34:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>6fd541cf760940d0a0bcd4cefd3ac290</sys_id>
+        <sys_metadata>8c972bc5db68541068c82095ca9619d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Positive Working Environment</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent display_value="">91289fcddb28541068c82095ca9619a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_adventureman_player_record_item3</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_adventureman_player_record_item3">8622bf4ddb68541068c82095ca961913</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:34:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

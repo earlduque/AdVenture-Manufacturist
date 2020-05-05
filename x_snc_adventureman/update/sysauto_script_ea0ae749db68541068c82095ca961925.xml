@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Calculate the monies</name>
+        <run_as display_value="Earl Duque">55a0dbc9db28541068c82095ca961904</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:00:10</run_period>
+        <run_start>2020-05-01 23:17:27</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[//Money calculator
+var total_items = 10;
+var player_gr = new GlideRecord('x_snc_adventureman_player_record');
+player_gr.query();
+while(player_gr.next()){
+    var current_item = 1;
+    var new_currency = 0;
+    while (current_item <= total_items){
+        new_currency += parseFloat(player_gr.getValue('item' + current_item)) * parseFloat(player_gr.getValue('value' + current_item));
+        current_item++;
+    }
+    var current_cash = parseFloat(player_gr.getValue('cash_on_hand'));
+    player_gr.setValue('cash_on_hand', current_cash+new_currency);
+	gs.info('adventure: ' + player_gr.getDisplayValue('player') + ': ' + current_cash + ' ' + new_currency);
+    player_gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-01 23:24:36</sys_created_on>
+        <sys_id>ea0ae749db68541068c82095ca961925</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Calculate the monies</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sysauto_script_ea0ae749db68541068c82095ca961925</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

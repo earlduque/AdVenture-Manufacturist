@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>7f42dc11dbe8541068c82095ca961967</admin_panel>
+        <admin_panel_table>sys_aw_master_config</admin_panel_table>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <path>workspace/adventure_manufact</path>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:13:24</sys_created_on>
+        <sys_id>f342dc11dbe8541068c82095ca961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adventure Manufacturist</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_ux_page_registry_f342dc11dbe8541068c82095ca961968</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:13:24</sys_updated_on>
+        <title>Adventure Manufacturist</title>
+    </sys_ux_page_registry>
+</record_update>

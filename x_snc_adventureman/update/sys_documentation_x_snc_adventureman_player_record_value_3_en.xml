@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="value_3" label="Cost per office asset" language="en" table="x_snc_adventureman_player_record">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>value_3</element>
+            <help/>
+            <hint/>
+            <label>Cost per office asset</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <plural>Cost per office assets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 01:43:21</sys_created_on>
+            <sys_id>2f6bc01ddba8541068c82095ca961902</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Cost per office asset</sys_name>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_adventureman_player_record_value_3_en</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 03:25:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

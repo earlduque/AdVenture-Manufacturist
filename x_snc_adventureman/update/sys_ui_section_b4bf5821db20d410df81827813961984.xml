@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Entertainment" section_id="b4bf5821db20d410df81827813961984" sys_domain="global" table="x_snc_adventureman_player_record" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_9</element>
+            <position>0</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>69bf9821db20d410df81827813961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accrual_9</element>
+            <position>1</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>edbf9821db20d410df81827813961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value_9</element>
+            <position>2</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>65bf9821db20d410df81827813961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>e9bf9821db20d410df81827813961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product_9</element>
+            <position>4</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>61bf9821db20d410df81827813961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upgrade_9</element>
+            <position>5</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:26</sys_created_on>
+            <sys_id>e5bf9821db20d410df81827813961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Entertainment" display_value="Entertainment" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">b4bf5821db20d410df81827813961984</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Entertainment</caption>
+            <header>false</header>
+            <name>x_snc_adventureman_player_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:50:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4bf5821db20d410df81827813961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Entertainment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_ui_section_b4bf5821db20d410df81827813961984</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:50:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">5a2164e8dbd3001068c82095ca96192c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

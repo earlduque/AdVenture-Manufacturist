@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="DELETE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="Customer360">931154a48710230084aca571d5cb0bc3</component>
+        <is_inheritable>false</is_inheritable>
+        <name>You360</name>
+        <order>0</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>391fa46ddb20d410df8182781396199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>You360</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_391fa46ddb20d410df8182781396199e</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:24</sys_updated_on>
+        <table>x_snc_adventureman_player_record</table>
+        <tag>sn-component-workspace-customer360</tag>
+        <width>2</width>
+        <workspace display_value="Adventure Manufacturist">7f42dc11dbe8541068c82095ca961967</workspace>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="DELETE" query="document_key=391fa46ddb20d410df8182781396199e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>04bf6c6ddb20d410df81827813961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value/>
+        <variable display_value="">306650348750230084aca571d5cb0b06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>60</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>08bf6c6ddb20d410df81827813961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value/>
+        <variable display_value="">81f3cd73ff143300dda74b9ad53bf1b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>40bf6c6ddb20d410df81827813961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">98335ca48710230084aca571d5cb0b43</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>35</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>44bf6c6ddb20d410df81827813961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">5a3714348750230084aca571d5cb0b65</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>4cbf6c6ddb20d410df81827813961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value/>
+        <variable display_value="">c9838973ff143300dda74b9ad53bf17c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>88bf6c6ddb20d410df81827813961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value>player</value>
+        <variable display_value="">8281d4a48710230084aca571d5cb0bc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>55</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>8cbf6c6ddb20d410df81827813961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">11c34d73ff143300dda74b9ad53bf154</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>c4bf6c6ddb20d410df81827813961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value/>
+        <variable display_value="">67d794348750230084aca571d5cb0bd0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:15</sys_created_on>
+        <sys_id>c8bf6c6ddb20d410df81827813961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:15</sys_updated_on>
+        <value/>
+        <variable display_value="">67b59cf08750230084aca571d5cb0b76</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_aw_ribbon_setting</document>
+        <document_key>391fa46ddb20d410df8182781396199e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:24</sys_created_on>
+        <sys_id>eabfec6ddb20d410df8182781396192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:24</sys_updated_on>
+        <value>assigned_to</value>
+        <variable display_value="">dafb48648710230084aca571d5cb0b31</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>sys_aw_ribbon_setting_391fa46ddb20d410df8182781396199e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_setting"><sys_aw_ribbon_setting action="INSERT_OR_UPDATE"><active>true</active><attrs/><component display_value="Customer360">931154a48710230084aca571d5cb0bc3</component><is_inheritable>false</is_inheritable><name>You360</name><order>0</order><sys_class_name>sys_aw_ribbon_setting</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>391fa46ddb20d410df8182781396199e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>You360</sys_name><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>sys_aw_ribbon_setting_391fa46ddb20d410df8182781396199e</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:24</sys_updated_on><table>x_snc_adventureman_player_record</table><tag>sn-component-workspace-customer360</tag><width>2</width><workspace display_value="Adventure Manufacturist">7f42dc11dbe8541068c82095ca961967</workspace></sys_aw_ribbon_setting><sys_variable_value action="delete_multiple" query="document_key=391fa46ddb20d410df8182781396199e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>30</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>04bf6c6ddb20d410df81827813961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value/><variable display_value="">306650348750230084aca571d5cb0b06</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>60</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>08bf6c6ddb20d410df81827813961991</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value/><variable display_value="">81f3cd73ff143300dda74b9ad53bf1b0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>15</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>40bf6c6ddb20d410df81827813961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value>sys_user</value><variable display_value="">98335ca48710230084aca571d5cb0b43</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>35</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>44bf6c6ddb20d410df81827813961991</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value>sys_user</value><variable display_value="">5a3714348750230084aca571d5cb0b65</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>4cbf6c6ddb20d410df81827813961990</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value/><variable display_value="">c9838973ff143300dda74b9ad53bf17c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>88bf6c6ddb20d410df81827813961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value>player</value><variable display_value="">8281d4a48710230084aca571d5cb0bc2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>55</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>8cbf6c6ddb20d410df81827813961991</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value>sys_user</value><variable display_value="">11c34d73ff143300dda74b9ad53bf154</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>40</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>c4bf6c6ddb20d410df81827813961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value/><variable display_value="">67d794348750230084aca571d5cb0bd0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>20</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:15</sys_created_on><sys_id>c8bf6c6ddb20d410df81827813961991</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:15</sys_updated_on><value/><variable display_value="">67b59cf08750230084aca571d5cb0b76</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_aw_ribbon_setting</document><document_key>391fa46ddb20d410df8182781396199e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-02 23:00:24</sys_created_on><sys_id>eabfec6ddb20d410df8182781396192b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-02 23:00:24</sys_updated_on><value>assigned_to</value><variable display_value="">dafb48648710230084aca571d5cb0b31</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>76751842</payload_hash>
+        <record_name>You360</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:00:25</sys_created_on>
+        <sys_id>aabfec6ddb20d410df8182781396195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d79e8f2c0000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:00:25</sys_updated_on>
+        <type>Ribbon Setting</type>
+        <update_guid>2abfec6dc320d41055e5f0ad2cada42d</update_guid>
+        <update_guid_history>2abfec6dc320d41055e5f0ad2cada42d:76751842,c8bfac6df020d4109150101506acbefd:631536382</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 23:02:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_ribbon_setting">sys_aw_ribbon_setting</sys_db_object>
+        <sys_id>60b24c2006464b2c8dbedeab380f5284</sys_id>
+        <sys_metadata>391fa46ddb20d410df8182781396199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>You360</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>sys_aw_ribbon_setting_391fa46ddb20d410df8182781396199e</sys_update_name>
+        <sys_update_version display_value="sys_aw_ribbon_setting_391fa46ddb20d410df8182781396199e">aabfec6ddb20d410df8182781396195f</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:02:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

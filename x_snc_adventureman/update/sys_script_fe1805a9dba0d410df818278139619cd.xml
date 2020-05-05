@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_adventureman_player_record</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Accrual Rate Calculation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+		gs.info('adventure: accrual_rate');
+		var new_cash = parseFloat(0);
+		new_cash += parseFloat(current.item_1) * parseFloat(current.accrual_1);
+		new_cash += parseFloat(current.item_2) * parseFloat(current.accrual_2);
+		new_cash += parseFloat(current.item_3) * parseFloat(current.accrual_3);
+		new_cash += parseFloat(current.item_4) * parseFloat(current.accrual_4);
+		new_cash += parseFloat(current.item_5) * parseFloat(current.accrual_5);
+		new_cash += parseFloat(current.item_6) * parseFloat(current.accrual_6);
+		new_cash += parseFloat(current.item_7) * parseFloat(current.accrual_7);
+		new_cash += parseFloat(current.item_8) * parseFloat(current.accrual_8);
+		new_cash += parseFloat(current.item_9) * parseFloat(current.accrual_9);
+		new_cash += parseFloat(current.item_10) * parseFloat(current.accrual_10);
+		gs.info('adventure: ' + new_cash);
+
+		current.accrual_rate = new_cash;
+
+	/*var tiers = 10;
+	var ctier = 1;
+
+	var rate = parseFloat(0);
+
+	while (ctier <= tiers){
+		gs.info('adventure tier' + ctier);
+		rate += parseFloat(current['item_'+ctier.toString()].getValue()) * parseFloat(current['accrual_'+ctier.toString()].getValue());
+		ctier++;
+		gs.info('adventure rate' + rate);
+	}*/
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 00:52:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe1805a9dba0d410df818278139619cd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Accrual Rate Calculation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_script_fe1805a9dba0d410df818278139619cd</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:11:11</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe1805a9dba0d410df818278139619cd"/>
+</record_update>

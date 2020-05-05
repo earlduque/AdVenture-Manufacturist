@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product_4" table="x_snc_adventureman_player_record" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sand</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd371c29dbec9410df81827813961900</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:25</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a579c29dbec9410df8182781396197c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:59</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mirrors</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27579c29dbec9410df818278139619e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:05</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mirrors 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0679c29dbec9410df818278139619ed</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:20</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mirrors 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2679c29dbec9410df818278139619f1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:18</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mirrors 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3767dc29dbec9410df8182781396194c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:27</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mirrors 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86771069dbec9410df81827813961957</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:38</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnets</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97771069dbec9410df8182781396195f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:44</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnets 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca871069dbec9410df818278139619fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:48</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnets 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53875069dbec9410df8182781396199f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:52</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnets 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94975069dbec9410df81827813961910</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:56</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sand 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a37d829dbec9410df81827813961991</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:29</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnets 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:14:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d979069dbec9410df8182781396193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:14:59</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laz0rs that actually go Pew Pew</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46979069dbec9410df81827813961994</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:15:08</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laz0rs that actually go Pew Pew</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:15:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04a79069dbec9410df8182781396199d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:15:11</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laz0rs that actually go Pew Pew</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:15:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0a79069dbec9410df81827813961969</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:15:13</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laz0rs that actually go Pew Pew</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1a7d069dbec9410df81827813961936</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:15:17</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laz0rs that actually go Pew Pew</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:15:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dea79069dbec9410df81827813961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:15:20</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sand 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c471c29dbec9410df81827813961902</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:33</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sand 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78471c29dbec9410df818278139619b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:36</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sand 5.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1475c29dbec9410df81827813961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:40</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6475c29dbec9410df818278139619eb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:45</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass 2.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33479c29dbec9410df81827813961915</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:49</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass 3.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30575c29dbec9410df81827813961938</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:52</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass 4.0</label>
+            <language>en</language>
+            <name>x_snc_adventureman_player_record</name>
+            <sequence/>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9579c29dbec9410df81827813961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:56</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product_4</element>
+            <name>x_snc_adventureman_player_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 21:13:23</sys_created_on>
+            <sys_id>b6371c29dbec9410df8182781396196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>product_4</sys_name>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_choice_x_snc_adventureman_player_record_product_4</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 21:13:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

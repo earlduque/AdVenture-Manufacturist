@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_adventureman_player_record</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_snc_adventureman_player_record">work_notesVALCHANGES^EQ<item endquery="false" field="work_notes" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Tell me how you really feel</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var newComment = current.work_notes.getJournalEntry(1).replace(/\b[-.,()&$?#!\[\]{}"']+\B|\B[-.,()&$#!\[\]{}"']+\b/g, "").toLowerCase().split('\n');
+	var newCommand = newComment[1].split(' ');
+	var newInput = newComment[1].toString().slice(newCommand[0].length + 1).trim().replace(/\b[-.,()&$?#!\[\]{}"']+\B|\B[-.,()&$#!\[\]{}"']+\b/g, "");
+	var message = [];
+	var currentID = current.getUniqueValue();
+
+	//var acc_tiers=[0.01,1.00,10.00,25.00,500.00,5000.00,10000.00,50000.00,100000.00,1000000.00];
+
+	var valid_commands = ['buy', 'get', 'purchase'];
+	var valid_upgrades = ['upgrade', 'up'];
+
+	var item_ids = {
+		'1': ['1', 'is', 'information services', 'information', 'info services', 'info', 'paper', 'paper sheet', 'ream', 'reams', 'paper sheets', 'book', 'books', 'encyclopedia', 'volume', 'encyclopedia volume', 'encyclopedia volumes', 'volumes', 'drive', 'thumb drive', 'drives', 'thumb drives', 'thumb', 'thumbs'],
+		'2': ['2', 'us', 'utility', 'utility services', 'utility service', 'coal', 'windmill', 'windmills', 'electric transformer', 'electric transformers', 'transformer', 'transformers', 'solar', 'solar power', 'better solar power', 'improved solar power', 'better solar', 'improved solar', 'solar power panels', 'solar power panel', 'panel', 'panels'],
+		'3': ['3','workroom trinkets','vending machines','cubicle decorations','individual offices','free donuts', 'workroom', 'trinket', 'trinkets', 'vending', 'machine', 'machines', 'cubicle', 'cubicles', 'decoration', 'decorations', 'office', 'offices', 'donut', 'donuts'],
+		'4': ['4','sand','glass','mirrors', 'magnets','laz0rs that actually go pew pew', 'mirror', 'manget', 'laser', 'lasers', 'laszer', 'lazers', 'laz0r'],
+		'5': ['5','screws','metal sheets','rebar','anvils','black holes', 'screw', 'metal', 'metals', 'metal sheet', 'rebars', 'anvil', 'hole', 'holes', 'black hole'],
+		'6': ['6','dirt paths','pebble roads','asphalt highways','high speed tunnels','giant trebuchets', 'dirt', 'path', 'paths', 'dirt path', 'pebble', 'road','roads','pebble road','asphalt', 'highway','highways','asphalt highways', 'high speed tunnel', 'tunnel', 'tunnels', 'trebuchets'],
+		'7': ['7','plastic polymer','extrusion','injection molding','plastic bottle','fancy shoes', 'plastic', 'polymer','polymers','plastic polymers', 'extrusions', 'injection','injection moldings', 'bottle','bottles','plastic bottles', 'fancy', 'shoe','shoes','fancy shoe'],
+		'8': ['8','bicycle couriers','mail trucks', 'two day delivery planes','email servers','telepathy nodes', 'bike','bikes','bicycle courier', 'bike couriers', 'courier', 'couriers', 'mail', 'mail truck', 'truck','trucks', 'plane','planes', 'two day delivery plane', 'email', 'server', 'servers', 'email server', 'telepathy', 'telepathy node', 'node', 'nodes'],
+		'9': ['9','board games','video games','fantasy sports','sports team','death-colliseums', 'board', 'game', 'games', 'board game', 'video', 'video game', 'fantasy', 'fantasy sport', 'sport', 'sports', 'team', 'teams', 'sports teams', 'death','colliseums', 'death-colliseum'],
+		'10': ['10','developers named earl','brads','andrews','chucks','mcdermotts', 'earl', 'earlio', 'earliodookie','brad','earls','andrew','ajb','chuck','tomasi','bowtie','mcdermott','ceo', 'mcdermott\'s final form', 'mcdermotts final form'],
+	};
+	
+	var images = ['','paper','ream','book','volume','thumb','coal','windmill','transformer','solar','solar2','trinket','machine','decoration','office','donut','sand','glass','mirror','magnet','lazer','screw','metal','rebar','anvil','blackhole','dirt','pebble','asphalt','tunnel','trebuchet','polymer','extrusion','mold','bottle','shoe','bike','truck','plane','email','node','board','video','fantasy','sport','colliseum','earl','brad','andrew','chuck','mcdermott'];
+
+	if (valid_commands.indexOf(newCommand[0]) != -1) {
+		for (var i in item_ids){
+			if (item_ids[i].indexOf(newInput) != -1) {
+				var cash = parseFloat(current.cash); 
+				var current_value = parseFloat(current['value_' + i]);
+				if (parseFloat(cash) < parseFloat(current_value)){
+					message.push('You need $' + current_value + ' to purchase this.');
+					break;
+				}
+				current.cash = cash - current_value;
+				message.push('$' + current_value.toFixed(2) + ' was spent.');
+				//current['value_' + i] = Math.round((current_value * 2.25)*100)/100;
+				var total = parseInt(current['item_'+i]);
+				current['item_' + i] = total + 1;
+				message.push('We now have ' + (total + 1) + ' of this asset.');
+				message.push('[code]<img src="' + images[Math.ceil( ((i-1)*25 + parseInt(current['product_'+i])) / 5 )] + '.png">[/code]');
+				break;
+			}
+		}
+	} else if (valid_upgrades.indexOf(newCommand[0]) != -1) {
+		for (var j in item_ids){
+			if (item_ids[j].indexOf(newInput) != -1) {
+				var cash2 = parseFloat(current.cash);
+				var current_value2 = parseFloat(current['upgrade_'+j]);
+				var new_upgrade = Math.round(j * j * (parseInt(current['product_' + j]) + 1) * (parseInt(current['product_' + j]) + 1) * parseFloat(current['value_'+j])*100)/100;
+				//var current_value2 = Math.round(1.5 * parseFloat(current['value_'+j]) * parseFloat(j * parseInt(current['product_'+ j])) *100)/100;
+				//var new_upgrade = Math.round(1.5 * j * parseFloat(current['value_'+j]) * parseFloat(j * (1+parseInt(current['product_'+ j]))) *100)/100;
+				if (parseFloat(cash2) < parseFloat(current_value2)){
+					message.push('You need $' + current_value2 + ' to upgrade this.');
+					break;
+				} else if (current['product_'+ j] == 25) {
+					message.push(current['product_'+j].getDisplayValue() + ' is the highest upgrade for that industry');
+					break;
+				}
+				message.push('$' + current_value2.toFixed(2) + ' was spent.');
+				var current_upgrade = current['value_'+j];
+				current['value_'+j] = parseFloat(current_upgrade)*j;
+				current.cash = parseFloat(cash2) - parseFloat(current_value2);
+				current['accrual_'+j] = parseFloat(current['accrual_'+j]) + roundUp(parseFloat(current['accrual_'+j]*0.5), 2);
+				current['upgrade_'+j] = new_upgrade;
+				var current_product = parseInt(current['product_'+j]);
+				current.setValue('product_'+j, (parseInt(current_product) + 1) + '');
+				message.push('We now have ' + current.getDisplayValue('product_'+j));
+				break;
+			}
+		}
+	}
+
+	current.work_notes = message.join('\n');
+
+	function roundUp(num, precision) {
+		precision = Math.pow(10, precision);
+		return Math.ceil(num * precision) / precision;
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 04:00:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98e524dddbe8541068c82095ca96197b</sys_id>
+        <sys_mod_count>87</sys_mod_count>
+        <sys_name>Tell me how you really feel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_script_98e524dddbe8541068c82095ca96197b</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:19:44</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=98e524dddbe8541068c82095ca96197b"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">3685d8a4db13001068c82095ca96191f</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:43:22</sys_created_on>
+        <sys_id>736bc01ddba8541068c82095ca96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:43:22</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

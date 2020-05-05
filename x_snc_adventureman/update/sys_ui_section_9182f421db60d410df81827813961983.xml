@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Player Information" section_id="9182f421db60d410df81827813961983" sys_domain="global" table="x_snc_adventureman_player_record" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cash</element>
+            <position>0</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-03 00:46:17</sys_created_on>
+            <sys_id>55f701a9dba0d410df8182781396196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Player Information" display_value="Player Information" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">9182f421db60d410df81827813961983</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-03 00:46:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-03 00:46:17</sys_created_on>
+            <sys_id>ddf701a9dba0d410df8182781396196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Player Information" display_value="Player Information" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">9182f421db60d410df81827813961983</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-03 00:46:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accrual_rate</element>
+            <position>2</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-03 00:46:17</sys_created_on>
+            <sys_id>55f701a9dba0d410df8182781396196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Player Information" display_value="Player Information" name="x_snc_adventureman_player_record" sys_domain="global" view="5a2164e8dbd3001068c82095ca96192c">9182f421db60d410df81827813961983</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-03 00:46:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Player Information</caption>
+            <header>false</header>
+            <name>x_snc_adventureman_player_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-05-02 23:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9182f421db60d410df81827813961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Player Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+            <sys_update_name>sys_ui_section_9182f421db60d410df81827813961983</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-05-02 23:12:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">5a2164e8dbd3001068c82095ca96192c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

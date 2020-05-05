@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1a-04-06-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>THE MONEY SHALL BE SHOWN</description>
+        <internal_name>show_me_the_money</internal_name>
+        <label_cache>[{"name":"4db74f7c-f357-4b75-b36b-7dff320a9f68.item.value_1","label":"2➛Player Record Record➛Value 1","reference":"","reference_display":"Value 1","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_1"},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Records","label":"1➛Player Record Records","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Table","label":"1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4db74f7c-f357-4b75-b36b-7dff320a9f68.item","label":"2➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2f5649ed-dba1-4297-90b1-5d58d0354c15.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f5649ed-dba1-4297-90b1-5d58d0354c15.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>351d8c39db241810df818278139619ce</latest_snapshot>
+        <master_snapshot>595054dddba8541068c82095ca961920</master_snapshot>
+        <name>SHOW ME THE MONEY</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a55054dddba8541068c82095ca96193e</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:49:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6bc405ddba8541068c82095ca96195a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SHOW ME THE MONEY</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>sys_hub_flow_d6bc405ddba8541068c82095ca96195a</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6bc405ddba8541068c82095ca96195a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d6bc405ddba8541068c82095ca96195a"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period>1970-01-01 00:00:10</run_period>
+        <run_start>2020-05-02 02:04:47</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a55054dddba8541068c82095ca96193e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <time/>
+        <timer_type>1</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:a55054dddba8541068c82095ca96193e</name>
+        <run_as display_value="Earl Duque">55a0dbc9db28541068c82095ca961904</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-01 00:00:10</run_period>
+        <run_start>2020-05-02 02:04:47</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('a55054dddba8541068c82095ca96193e');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>2d5054dddba8541068c82095ca96193e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">a55054dddba8541068c82095ca96193e</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d6bc405ddba8541068c82095ca96195a^sys_idNOT IN611e4c5ddba8541068c82095ca961952,a51e4c5ddba8541068c82095ca96194c,e11e4c5ddba8541068c82095ca961956"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <order>2.1</order>
+        <parent_ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>611e4c5ddba8541068c82095ca961952</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:34</sys_updated_on>
+        <ui_id>2f5649ed-dba1-4297-90b1-5d58d0354c15</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=611e4c5ddba8541068c82095ca961952"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>611e4c5ddba8541068c82095ca961952</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>211e4c5ddba8541068c82095ca961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>611e4c5ddba8541068c82095ca961952</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>6d1e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>cash=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=611e4c5ddba8541068c82095ca961952"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>291e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{4db74f7c-f357-4b75-b36b-7dff320a9f68.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>651e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>e91e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>a51e4c5ddba8541068c82095ca96194c</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:34</sys_updated_on>
+        <ui_id>e8bac918-9964-45a0-bff2-98b3d717a421</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a51e4c5ddba8541068c82095ca96194c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a51e4c5ddba8541068c82095ca96194c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>2d1e4c5ddba8541068c82095ca96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a51e4c5ddba8541068c82095ca96194c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>691e4c5ddba8541068c82095ca96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a51e4c5ddba8541068c82095ca961955</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:58</sys_created_on>
+        <sys_id>e11e4c5ddba8541068c82095ca961956</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e11e4c5ddba8541068c82095ca961956"/>
+    <sys_element_mapping action="delete_multiple" query="id=e11e4c5ddba8541068c82095ca961956"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e11e4c5ddba8541068c82095ca961956</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:58</sys_created_on>
+        <sys_id>791e4c5ddba8541068c82095ca961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e8bac918-9964-45a0-bff2-98b3d717a421.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d6bc405ddba8541068c82095ca96195a^sys_idNOT INd91e045ddba8541068c82095ca96197b"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:56</sys_created_on>
+        <sys_id>d91e045ddba8541068c82095ca96197b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d91e045ddba8541068c82095ca96197b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d91e045ddba8541068c82095ca96197b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:56</sys_created_on>
+        <sys_id>9d1e045ddba8541068c82095ca96197c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:25</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d6bc405ddba8541068c82095ca96195a^sys_idNOT IN62bc405ddba8541068c82095ca96195d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d6bc405ddba8541068c82095ca96195a</id>
+        <name>SHOW ME THE MONEY</name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:49:01</sys_created_on>
+        <sys_id>62bc405ddba8541068c82095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:49:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d6bc405ddba8541068c82095ca96195a^sys_idNOT IN611e4c5ddba8541068c82095ca961952,a51e4c5ddba8541068c82095ca96194c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <order>2.1</order>
+        <parent_ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>611e4c5ddba8541068c82095ca961952</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:34</sys_updated_on>
+        <ui_id>2f5649ed-dba1-4297-90b1-5d58d0354c15</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=611e4c5ddba8541068c82095ca961952"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>611e4c5ddba8541068c82095ca961952</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>211e4c5ddba8541068c82095ca961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>611e4c5ddba8541068c82095ca961952</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>6d1e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>cash=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=611e4c5ddba8541068c82095ca961952"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>291e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{4db74f7c-f357-4b75-b36b-7dff320a9f68.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>651e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>611e4c5ddba8541068c82095ca961952</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>e91e4c5ddba8541068c82095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=611e4c5ddba8541068c82095ca961952^sys_idNOT IN0e614551db6c541068c82095ca96193d,611e4c5ddba8541068c82095ca961953,e91e4c5ddba8541068c82095ca961953"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>611e4c5ddba8541068c82095ca961952</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 05:39:11</sys_created_on>
+        <sys_id>0e614551db6c541068c82095ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 05:39:11</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>table_name</input_name>
+        <instance>611e4c5ddba8541068c82095ca961952</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"table_name":{"scriptActive":false}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>611e4c5ddba8541068c82095ca961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>611e4c5ddba8541068c82095ca961952</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"cash":{"scriptActive":true,"script":"var current_cash \u003d parseFloat(fd_data._2__for_each.item.cash);\nvar new_cash \u003d parseFloat(0);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_1) * parseFloat(fd_data._2__for_each.item.accrual_1);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_2) * parseFloat(fd_data._2__for_each.item.accrual_2);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_3) * parseFloat(fd_data._2__for_each.item.accrual_3);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_4) * parseFloat(fd_data._2__for_each.item.accrual_4);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_5) * parseFloat(fd_data._2__for_each.item.accrual_5);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_6) * parseFloat(fd_data._2__for_each.item.accrual_6);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_7) * parseFloat(fd_data._2__for_each.item.accrual_7);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_8) * parseFloat(fd_data._2__for_each.item.accrual_8);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_9) * parseFloat(fd_data._2__for_each.item.accrual_9);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_10) * parseFloat(fd_data._2__for_each.item.accrual_10);\nreturn (new_cash + current_cash).toFixed(2);","savedValue":"0"}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>e91e4c5ddba8541068c82095ca961953</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:24:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>a51e4c5ddba8541068c82095ca96194c</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:34</sys_updated_on>
+        <ui_id>e8bac918-9964-45a0-bff2-98b3d717a421</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a51e4c5ddba8541068c82095ca96194c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a51e4c5ddba8541068c82095ca96194c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>2d1e4c5ddba8541068c82095ca96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a51e4c5ddba8541068c82095ca96194c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:57</sys_created_on>
+        <sys_id>691e4c5ddba8541068c82095ca96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:57</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d6bc405ddba8541068c82095ca96195a^sys_idNOT INe11e4c5ddba8541068c82095ca961956"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a51e4c5ddba8541068c82095ca961955</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:58</sys_created_on>
+        <sys_id>e11e4c5ddba8541068c82095ca961956</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e11e4c5ddba8541068c82095ca961956"/>
+    <sys_element_mapping action="delete_multiple" query="id=e11e4c5ddba8541068c82095ca961956"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e11e4c5ddba8541068c82095ca961956</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 01:54:58</sys_created_on>
+        <sys_id>791e4c5ddba8541068c82095ca961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 01:54:58</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e8bac918-9964-45a0-bff2-98b3d717a421.Records}}</value>
+    </sys_element_mapping>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d6bc405ddba8541068c82095ca96195a^sys_idNOT IN655054dddba8541068c82095ca961941"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"655054dddba8541068c82095ca961941","name":"plan"}}</plan>
+        <plan_id>d6bc405ddba8541068c82095ca96195a</plan_id>
+        <snapshot>351d8c39db241810df818278139619ce</snapshot>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>655054dddba8541068c82095ca961941</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <trigger display_value="">a55054dddba8541068c82095ca96193e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>THE MONEY SHALL BE SHOWN</description>
+        <internal_name>show_me_the_money</internal_name>
+        <label_cache>[{"name":"4db74f7c-f357-4b75-b36b-7dff320a9f68.item.value_1","label":"2➛Player Record Record➛Value 1","reference":"","reference_display":"Value 1","type":"currency","base_type":"currency","parent_table_name":"x_snc_adventureman_player_record","column_name":"value_1"},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Records","label":"1➛Player Record Records","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Table","label":"1➛Player Record Table","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8bac918-9964-45a0-bff2-98b3d717a421.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4db74f7c-f357-4b75-b36b-7dff320a9f68.item","label":"2➛Player Record Record","reference":"x_snc_adventureman_player_record","reference_display":"Player Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"2f5649ed-dba1-4297-90b1-5d58d0354c15.record","label":"2.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2f5649ed-dba1-4297-90b1-5d58d0354c15.table_name","label":"2.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>SHOW ME THE MONEY</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="SHOW ME THE MONEY">d6bc405ddba8541068c82095ca96195a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>595054dddba8541068c82095ca961920</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=595054dddba8541068c82095ca961920"/>
+    <sys_variable_value action="delete_multiple" query="document_key=595054dddba8541068c82095ca961920"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=595054dddba8541068c82095ca961920^sys_idNOT IN515054dddba8541068c82095ca961929,515054dddba8541068c82095ca96192d,915054dddba8541068c82095ca961924"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>515054dddba8541068c82095ca961929</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>e8bac918-9964-45a0-bff2-98b3d717a421</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=515054dddba8541068c82095ca961929"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca961929</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>9d5054dddba8541068c82095ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca961929</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>d95054dddba8541068c82095ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <order>2.1</order>
+        <parent_ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>515054dddba8541068c82095ca96192d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>2f5649ed-dba1-4297-90b1-5d58d0354c15</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=515054dddba8541068c82095ca96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca96192d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>215054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>cash=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca96192d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>e15054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=515054dddba8541068c82095ca96192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>e95054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{4db74f7c-f357-4b75-b36b-7dff320a9f68.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>295054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>ad5054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a51e4c5ddba8541068c82095ca961955</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_id>915054dddba8541068c82095ca961924</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=915054dddba8541068c82095ca961924"/>
+    <sys_element_mapping action="delete_multiple" query="id=915054dddba8541068c82095ca961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>915054dddba8541068c82095ca961924</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_id>d15054dddba8541068c82095ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e8bac918-9964-45a0-bff2-98b3d717a421.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=595054dddba8541068c82095ca961920^sys_idNOT INe55054dddba8541068c82095ca96192f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>e55054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:32</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e55054dddba8541068c82095ca96192f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e55054dddba8541068c82095ca96192f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>6d5054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=595054dddba8541068c82095ca961920^sys_idNOT IN515054dddba8541068c82095ca961921"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>595054dddba8541068c82095ca961920</id>
+        <name>SHOW ME THE MONEY</name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_id>515054dddba8541068c82095ca961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=595054dddba8541068c82095ca961920^sys_idNOT IN515054dddba8541068c82095ca961929,515054dddba8541068c82095ca96192d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>515054dddba8541068c82095ca961929</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>e8bac918-9964-45a0-bff2-98b3d717a421</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=515054dddba8541068c82095ca961929"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca961929</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>9d5054dddba8541068c82095ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca961929</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>d95054dddba8541068c82095ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <order>2.1</order>
+        <parent_ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>515054dddba8541068c82095ca96192d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>2f5649ed-dba1-4297-90b1-5d58d0354c15</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=515054dddba8541068c82095ca96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca96192d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>215054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>cash=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>515054dddba8541068c82095ca96192d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>e15054dddba8541068c82095ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <value>x_snc_adventureman_player_record</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=515054dddba8541068c82095ca96192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>e95054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{4db74f7c-f357-4b75-b36b-7dff320a9f68.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>295054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>515054dddba8541068c82095ca96192d</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>ad5054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=515054dddba8541068c82095ca96192d^sys_idNOT IN115054dddba8541068c82095ca96192e,155054dddba8541068c82095ca96192e,7b618551db6c541068c82095ca961926"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>table_name</input_name>
+        <instance>515054dddba8541068c82095ca96192d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"table_name":{"scriptActive":false}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>115054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:47</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>515054dddba8541068c82095ca96192d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"cash":{"scriptActive":true,"script":"var current_cash \u003d parseFloat(fd_data._2__for_each.item.cash);\nvar new_cash \u003d parseFloat(0);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_1) * parseFloat(fd_data._2__for_each.item.accrual_1);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_2) * parseFloat(fd_data._2__for_each.item.accrual_2);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_3) * parseFloat(fd_data._2__for_each.item.accrual_3);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_4) * parseFloat(fd_data._2__for_each.item.accrual_4);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_5) * parseFloat(fd_data._2__for_each.item.accrual_5);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_6) * parseFloat(fd_data._2__for_each.item.accrual_6);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_7) * parseFloat(fd_data._2__for_each.item.accrual_7);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_8) * parseFloat(fd_data._2__for_each.item.accrual_8);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_9) * parseFloat(fd_data._2__for_each.item.accrual_9);\nnew_cash +\u003d parseFloat(fd_data._2__for_each.item.item_10) * parseFloat(fd_data._2__for_each.item.accrual_10);\nreturn (new_cash + current_cash).toFixed(2);","savedValue":"0"}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:47</sys_created_on>
+        <sys_id>155054dddba8541068c82095ca96192e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:24:27</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>515054dddba8541068c82095ca96192d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 05:39:18</sys_created_on>
+        <sys_id>7b618551db6c541068c82095ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 05:39:18</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=595054dddba8541068c82095ca961920^sys_idNOT IN915054dddba8541068c82095ca961924"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a51e4c5ddba8541068c82095ca961955</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="SHOW ME THE MONEY">595054dddba8541068c82095ca961920</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_id>915054dddba8541068c82095ca961924</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 15:07:31</sys_updated_on>
+        <ui_id>4db74f7c-f357-4b75-b36b-7dff320a9f68</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=915054dddba8541068c82095ca961924"/>
+    <sys_element_mapping action="delete_multiple" query="id=915054dddba8541068c82095ca961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>915054dddba8541068c82095ca961924</id>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-02 02:04:46</sys_created_on>
+        <sys_id>d15054dddba8541068c82095ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:04:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e8bac918-9964-45a0-bff2-98b3d717a421.Records}}</value>
+    </sys_element_mapping>
+</record_update>

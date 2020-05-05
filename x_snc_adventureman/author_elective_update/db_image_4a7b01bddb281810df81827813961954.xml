@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format>JPEG</format>
+        <height>225</height>
+        <image>ed6b4d7ddb281810df81827813961993</image>
+        <name>paper.png</name>
+        <size_bytes>5733</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 19:40:06</sys_created_on>
+        <sys_id>4a7b01bddb281810df81827813961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>paper.png</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_update_name>db_image_4a7b01bddb281810df81827813961954</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:40:06</sys_updated_on>
+        <thumbnail/>
+        <width>225</width>
+    </db_image>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</application>
+        <file_path/>
+        <instance_id>3308ba2d6fc05e006626a9cc5d3ee496</instance_id>
+        <instance_name>hackathon119</instance_name>
+        <name>db_image_4a7b01bddb281810df81827813961954</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format>JPEG</format><height>225</height><image>ed6b4d7ddb281810df81827813961993</image><name>paper.png</name><size_bytes>5733</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-05-03 19:40:06</sys_created_on><sys_id>4a7b01bddb281810df81827813961954</sys_id><sys_mod_count>0</sys_mod_count><sys_name>paper.png</sys_name><sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package><sys_policy/><sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope><sys_update_name>db_image_4a7b01bddb281810df81827813961954</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-05-03 19:40:06</sys_updated_on><thumbnail/><width>225</width></db_image></record_update>]]></payload>
+        <payload_hash>878307032</payload_hash>
+        <record_name>paper.png</record_name>
+        <reverted_from/>
+        <source>a6e5db8ddb28541068c82095ca961928</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 19:40:06</sys_created_on>
+        <sys_id>867b01bddb281810df81827813961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dc0d88d40000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:40:06</sys_updated_on>
+        <type>Images</type>
+        <update_guid>ce7b01bd762818107ac2288a22d0bf55</update_guid>
+        <update_guid_history>ce7b01bd762818107ac2288a22d0bf55:878307032</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="paper.png">e37b01bddb281810df8182781396195d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-05-03 19:40:12</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>1866a65c94bb48209403005f86534400</sys_id>
+        <sys_metadata>4a7b01bddb281810df81827813961954</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>paper.png</sys_name>
+        <sys_package display_value="Adventure Manufacturist" source="x_snc_adventureman">66e55b8ddb28541068c82095ca961928</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Manufacturist">66e55b8ddb28541068c82095ca961928</sys_scope>
+        <sys_scope_delete display_value="">2e7be6e6a95f4c72ab7c8bd1419f1f59</sys_scope_delete>
+        <sys_update_name>db_image_4a7b01bddb281810df81827813961954</sys_update_name>
+        <sys_update_version display_value="db_image_4a7b01bddb281810df81827813961954">867b01bddb281810df81827813961956</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:40:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
